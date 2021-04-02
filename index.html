@@ -1,3 +1,5 @@
+<!-- Kentucky Community Colleges Women in Computing site - kyccwic.org -->
+<!-- Jon McDermott, 2021 -->
 <!doctype html>
 <html lang="en">
     <head>
@@ -8,7 +10,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>Women In Computing</title>
     </head>
-    <body>
+    <body id='mainPage' data-spy='scroll' data-target='.navbar' data-offset='10'>
+
         <!-- NAVBAR -->
         <!-- About, Speakers, Agenda, History, Mission, Event Committee, Register Now -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -22,31 +25,32 @@
         
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item mx-1 active">
-                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#">Speakers</a>
+                        <a class="nav-link" href="#speakers">SPEAKERS</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#">Agenda</a>
+                        <a class="nav-link" href="#agenda">AGENDA</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#">History</a>
+                        <a class="nav-link" href="#history">HISTORY</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#">Mission</a>
+                        <a class="nav-link" href="#mission">MISSION</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#">Event Committee</a>
+                        <a class="nav-link" href="#committee">EVENT COMMITTEE</a>
                     </li>
                 </ul>
                 <a class="btn btn-primary" href="#" role="button">Register Now</a>
             </div>
-        </nav>
+        </nav><!-- End of navbar -->
+
 
         <!-- Jumbotron KYCCWIC -->
-        <div class="jumbotron text-center">
+        <div id="topJumbo" class="jumbotron text-center">
             <h1 class="display-4">Kentucky Community Colleges Women in Computing</h1>
             <p class="lead">Join us virtually for the <strong>2021 Women in Computing Celebration</strong></p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Join us!</a>
@@ -72,7 +76,7 @@
                             celebration of Women in Computing!
                         </p>
                         <p>
-                            Meeting will be held via Zoom. Follow the link to register now for free!
+                            Meeting will be held via Microsoft Teams. Follow the link to register now for free!
                         </p>
                         <p><a href="#">Get Registered</a></p>
 
@@ -233,14 +237,25 @@
         </div> <!-- End Container-->
 
 
+        <!-- Footer-->
+        <footer class="container-fluid text-center bg-dark text-light mt-3">
+            <a type="button" class="btn btn-light mt-3" href="#mainPage">
+                to top
+            </a>
+            <p class="m-0"><small>KYCC Women in Computing &copy; 2021</small></p>
+            <p class="m-0"><small>Contact info for event goes here...</small></p>
+            <p class="m-0"><small>Created with love by Southcentral Kentucky Community & Technical College alumni</small></p>
+            <p class="py-3">social media icon links here...</p>
+        </footer><!-- End of Footer -->
+
+
         <!-- Bootstrap JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/smoothScrolling.js"></script>
     </body>
 </html>
-
-
-
-
