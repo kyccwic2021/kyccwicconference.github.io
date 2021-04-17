@@ -8,52 +8,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Internal CSS -->
+        <link rel="stylesheet" href="css/main.css">
         <title>Women In Computing</title>
     </head>
     <body id='mainPage' data-spy='scroll' data-target='.navbar' data-offset='10'>
 
         <!-- NAVBAR -->
         <!-- About, Speakers, Agenda, History, Mission, Event Committee, Register Now -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav id="main_nav" class="navbar navbar-expand-lg sticky-top navbar-custom">
+        <!--nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top"-->
             <a class="navbar-brand" href="/">
-                <img src="images/genericIcon.png" width="30" height="30" alt="">
+                <img src="images/KYCC logo.PNG" width="30" height="30" alt="">
                 KYCC WiC
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#about">ABOUT</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#speakers">SPEAKERS</a>
+                        <a class="nav-link" href="#speakers">Speakers</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#agenda">AGENDA</a>
+                        <a class="nav-link" href="#agenda">Agenda</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#history">HISTORY</a>
+                        <a class="nav-link" href="#history">History</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#mission">MISSION</a>
+                        <a class="nav-link" href="#mission">Mission</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link" href="#committee">EVENT COMMITTEE</a>
+                        <a class="nav-link" href="#committee">Event Committee</a>
                     </li>
                 </ul>
-                <a class="btn btn-primary" href="#" role="button">Register Now</a>
+                <a id="nav_button" class="btn btn-warning" href="#register" role="button">Register Now</a>
             </div>
         </nav><!-- End of navbar -->
 
 
         <!-- Jumbotron KYCCWIC -->
-        <div id="topJumbo" class="jumbotron text-center">
-            <h1 class="display-4">Kentucky Community Colleges Women in Computing</h1>
-            <p class="lead">Join us virtually for the <strong>2021 Women in Computing Celebration</strong></p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Join us!</a>
+        <div id="top_jumbo" class="jumbotron text-center">
+            <h1 id="jumbo_head" class="display-4">Kentucky Community Colleges Women in Computing</h1>
+            <p id="jumbo_lead" class="lead">Join us virtually for the <strong>2021 Women in Computing Celebration</strong></p>
+            <a class="btn btn-primary btn-lg" href="#register" role="button">Join us!</a>
         </div>
 
         
@@ -62,14 +65,11 @@
         <div class="container-fluid">
             <div class="row">
 
-                <!--------------------->
                 <!-- Left-most column -->
-                <!--------------------->
-
                 <div class="col-lg-2 bg-light">
                     <div class="pt1">
                         <!-- Date info-->
-                        <h4>Spetember 9-10, 2021</h4>
+                        <h4>September 9-10, 2021</h4>
                         <p>
                             Virtual meeting sponsored by <strong>the school</strong> with support
                             from <strong>the organization</strong> as part of this year's 
@@ -78,28 +78,29 @@
                         <p>
                             Meeting will be held via Microsoft Teams. Follow the link to register now for free!
                         </p>
-                        <p><a href="#">Get Registered</a></p>
+                        <p><a id="side_link" href="#register">Get Registered</a></p>
 
                         <hr>
 
                         <!-- Contact info-->
                         <h4>Event Contact</h4>
                         <p>Person McPerson</p>
-                        <p><a href="mailto:webmaster@example.com">Email</a></p>
+                        <p><a id="side_link" href="mailto:webmaster@example.com">Email</a></p>
 
                         <hr>
 
                         <!-- Relevant links -->
                         <h4>Computing Research Association</h4>
-                        <p><a href="https://cra.org/cra-wp/">cra.org/cra-wp</a></p>
+                        <p><a id="side_link" href="https://cra.org/cra-wp/">cra.org/cra-wp</a></p>
+
+                        <hr>
+
                     </div>
                 </div> <!-- End Left Column-->
 
-                <!--------------------->
-                <!-- Central column (main content)-->
-                <!--------------------->
 
-                <div class="col-lg-8">
+                <!-- Central column (main content)-->
+                <div id="center_column" class="col-lg-8">
                     <!-- About, Speakers, Agenda, History, Mission, Event Committee, Register Now -->
 
                     <!-- ABOUT Section-->
@@ -107,7 +108,7 @@
                         <div class="row">
                             <div class="col-xl-8">
                                 <h1>WIC 2021</h1>
-                                <h5>A Vitrual Celebration</h5>
+                                <h5>A Virtual Celebration</h5>
                                 <p>
                                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                 </p>
@@ -184,7 +185,7 @@
                     <!-- AGENDA Section-->
                     <div id="agenda" class="rounded p-2">
                         <h2>Agenda</h2>
-                        <p>Itenerary breakdown here</p>
+                        <p>Itinerary breakdown here</p>
                     </div> <!-- End AGENDA-->
 
                     <!-- HISTORY Section-->
@@ -220,10 +221,8 @@
 
                 </div> <!-- End Middle Column-->
 
-                <!--------------------->
-                <!-- Right-most column -->
-                <!--------------------->
 
+                <!-- Right-most column -->
                 <div class="col-lg-2 bg-light">
                     <div class="pt-1">
                         <h5>Visit Us on Social Media!</h5>
@@ -238,7 +237,7 @@
 
 
         <!-- Footer-->
-        <footer class="container-fluid text-center bg-dark text-light mt-3">
+        <footer class="container-fluid text-center text-light mt-3">
             <a type="button" class="btn btn-light mt-3" href="#mainPage">
                 to top
             </a>
@@ -256,6 +255,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Internal JS -->
         <script src="js/smoothScrolling.js"></script>
     </body>
 </html>
