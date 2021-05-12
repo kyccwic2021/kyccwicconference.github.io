@@ -92,3 +92,30 @@ footer a {
     text-decoration: none;
     color: white;
 }
+
+/* Social Media Icon Styling */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #4267B2;
+    color: white;
+}
+.fa-instagram {
+    background: #C13584;
+    color: white;
+}
+footer .fa {
+    font-size: 20px;
+    padding: 2px;
+    margin: 3px 1px;
+    background: transparent;
+}
