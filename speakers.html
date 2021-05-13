@@ -44,7 +44,16 @@
             </div>
         </nav><!-- End of navbar -->
 
-
+        <!-- Jumbotron KYCCWIC -->
+        <div id="top_jumbo" class="jumbotron text-center">
+          <div id="jumbo_fx">
+            <h1 id="jumbo_head" class="display-4">Kentucky Community Colleges Women in Computing</h1>
+            <h4>Embrace Change & Achieve Success</h4>
+            <p id="jumbo_lead" class="lead">Join us virtually for the <strong>2021 Women in Computing Celebration</strong></p>
+            <a class="btn btn-primary btn-lg" href="#register" role="button">Join us!</a>
+          </div>
+            
+        </div>
         
         <!-- Content container -->
         <!-- Set grid for sidebars with content centered until breakpoint-->
@@ -82,20 +91,83 @@
 
                 <!-- Central column (main content)-->
                 <div id="center_column" class="col-lg-8">
-                    <!-- These are the stuffs -->
-                    <h2>Speaker Info Coming Soon!</h2>
-                    <!-- SOMETHING Section-->
-                    <!--div id="about" class="rounded p-2">
-                        <h1>Women in Computing 2021</h1>
-                        <h2>Embrace Change & Achieve Success</h2>
+                    <!-- Keynote, Breakout, Employment Panel -->
+                    <h1 class="pb-2">KYCCWIC Speakers and Presenters</h1>
 
-                        <h5 class="pt-3 pb-2">About Us</h5>
-                        <p>
-                          Kentucky Community College Women in Computing (KYCCWIC) is a regional ACM-W Celebration of Women in Computing.  KYCCWIC connects technical women who are working/studying in Kentucky.  This conference gives women an opportunity to learn from leaders in various technical fields.  The goal of the conference will concentrate on building relationships, preparing women for the future in technical fields, and celebrating women in computing.  The 2021 conference will focus on computer security, computer programming, data analytics, and employment. 
-                        </p>
-                        
-                        <h5 class="pt-3 pb-2">This Year's Theme: Embrace Change & Achieve Success</h5>
+                    <!-- KEYNOTE Section-->
+                    <div id="keynote" class="rounded p-2 mt-2">
+                        <h2>Keynote: Chloe Gooden, M.A</h2>
                         <div class="row">
+                          <div class="col-md-6 col-lg-5 col-xl-4">
+                              <img class="img-fluid img-rounded img-responsive" src="images/chloe_gooden.jpg" alt="Chloe Gooden">
+                          </div>
+                          <div class="col-md-6 col-lg-7 col-xl-8">
+                              <p>
+                                Chloe M. Gooden is an Instructor, Advisor, and Mentor. She holds a Bachelors & Masters in Communications and 
+                                has experience in teaching, advising, and mentoring, in Public Speaking, Speech Writing, Presentation Creation 
+                                and Preparation, Interpersonal Communications, Conflict Resolution, Dealing with Emotions, and Interpersonal 
+                                Relationships for 10+ years. Outside of her academia, she is an Author, Speaker, and Founder of Chloe M. Gooden 
+                                Ministries, LLC that houses <a href="https://chloemgooden.com/ministries/">Caring Counselors Coalition 501(c)(3)</a>,  
+                                <a href="https://chloemgooden.com/her-worth-is-far-above-rubies/">Rubies Healing & Letting Go</a> and <a href="https://chloemgooden.com/after-miscarriage/">After 
+                                Miscarriage</a>. She has been in ministry for over 10+ years and has published several books, including her new 
+                                release <a href="https://chloemgooden.com/my-books/">The Break Up: How to Let Go of Your Ex, Heal, Forgive, and Move Forward</a>, and has her own <a href="https://chloemgooden.com/watch/">YouTube 
+                                Channel</a>, and <a href="https://chloemgooden.com/podcast-convos-with-chloe/">Podcast; Convos with Chloe</a>. In her messages, and ministry, she hopes to bring healing, guidance, 
+                                hope, freedom, and encouragement that allows women to experience a beautiful life on earth + eternity in Heaven.
+                              </p>
+                          </div>
+                        </div>
+                    </div> <!-- End KEYNOTE-->
+
+
+                    <!-- BREAKOUT Section-->
+                    <div id="breakout" class="rounded p-2 mt-2">
+                        <h2>Breakout Session Speakers</h2>
+                        <div id="accordion">
+                            <div class="card"><!--NAME-->
+                              <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    SPEAKER
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/genericIcon.png" alt="NAME">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p>INFO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--NAME-->
+                              <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    SPEAKER
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>INFO</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div> <!-- End BREAKOUT-->
+
+
+                    <!-- EMPLOYMENT Section-->
+                    <div id="employment" class="rounded p-2 mt-2">
+                        <h2>Employment Panel Presenters</h2>
+                        <p><em>COMING SOON!</em></p>
+                        <!--div class="row">
                           <div class="col-lg-7 col-xl-9">
                               <p>
                                 How fitting is this theme to explain the last year?  Navigating the covid-19 pandemic has forced us all to face unprecedented challenges.  We changed the way we work, educate, parent, and entertain.  As our work went virtual, we were forced to embrace new technologies.  As our kids came home from school, we were forced to educate them while juggling our own careers and trying to maintain sanity.  We held virtual birthday parties and happy hours to stay in touch with loved ones.  For so many, these changes weren’t welcome or perfectly executed.  But, it’s obvious that we somehow were able to embrace the situation and make it work.  As we start returning to normal, it’s becoming clear that all our efforts were not wasted.  We will no doubt continue to use many of the processes put into place as we navigate the new normal.  It’s often said that change is inevitable, yet growth is optional.  We should be proud of our growth through unprecedented change.  We faced the challenge head on and our lives will be richer and more efficient for it.  Let’s take that momentum and continue to grow through whatever changes come our way.
@@ -104,9 +176,8 @@
                           <div class="col-lg-5 col-xl-3">
                               <img class="img-fluid img-rounded img-responsive" src="images/bg-three_login.jpg" alt="Three female SKYCTC students using desktop computers">
                           </div>
-                        </div>
-                        
-                    </div--> <!-- End SOMETHING-->
+                        </div-->
+                    </div> <!-- End EMPLOYMENT-->
 
 
                 </div> <!-- End Middle Column-->
@@ -119,8 +190,9 @@
                         <h5>Visit Us on Social Media!</h5>
 
                         <!-- Social media links-->
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100066701753860" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/kycc_women_in_computing21/" class="fa fa-instagram"></a>
+                        <a href="https://twitter.com/KyccIn" class="fa fa-twitter"></a>
                     </div>   
 
                     <hr>
@@ -147,8 +219,9 @@
             <p class="m-0"><small>Created with love by Southcentral Kentucky Community & Technical College alumnus Jon McDermott</small></p>
             <p class="py-3">
                 Visit our social media pages for the latest event info:
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100066701753860" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/kycc_women_in_computing21/" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/KyccIn" class="fa fa-twitter"></a>
             </p>
         </footer><!-- End of Footer -->
 

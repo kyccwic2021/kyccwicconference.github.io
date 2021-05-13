@@ -66,6 +66,19 @@ hr {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#keynote {
+    border-width: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* change accordion heading style for member list */
+.bio_card {
+    font-family: 'Ultramagnetic Bold', 'Century Gothic', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #00467f;
+}
+
 
 /* change link behavior */
 #side_link {
@@ -113,8 +126,11 @@ footer a {
     background: #C13584;
     color: white;
 }
+.fa-twitter {
+    background: #1DA1F2;
+    color: white;
+}
 footer .fa {
-    font-size: 20px;
     padding: 2px;
     margin: 3px 1px;
     background: transparent;
