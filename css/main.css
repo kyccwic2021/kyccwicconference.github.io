@@ -25,14 +25,22 @@ nav {
 
 /* change background image for top jumbotron */
 #top_jumbo {
-    background-image: linear-gradient(rgba(255, 255, 253, 0.37), rgba(255, 255, 255, 1)), url('../images/bg-net_rack.jpg');
+    background-image: linear-gradient(rgba(255, 254, 248, 0.432), rgba(255, 255, 255, 1)), url('../images/bg-net_rack.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 /* change jombotron lead shadow effect */
 #jumbo_fx {
-    text-shadow: -2px 2px 4px rgba(14, 14, 26, 0.35);
+    text-shadow: -2px 2px 4px rgba(43, 43, 82, 0.35);
+}
+
+/* change top display that replaces jumbo on additional pages */
+.top_display {
+    text-align: center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,241,1) 100%);
+    
 }
 
 
@@ -55,6 +63,13 @@ hr {
     background-color: #e7a614;
 }
 
+/* change decorative images */
+.img-decorative {
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /* change speaker images  */
 #speaker_img {
