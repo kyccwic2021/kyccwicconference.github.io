@@ -149,7 +149,26 @@
                     <div id="register" class="rounded p-2">
                         <h2>Register Now</h2>
                         <h5>Join us in our virtual celebration of Women in Computing!</h5>
-                        <p><em>COMING SOON!</em></p>
+                        <div id="eventbrite-widget-container-154870236045"></div>
+
+                        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                        <script type="text/javascript">
+                            var exampleCallback = function() {
+                                console.log('Order complete!');
+                            };
+
+                            window.EBWidgets.createWidget({
+                                // Required
+                                widgetType: 'checkout',
+                                eventId: '154870236045',
+                                iframeContainerId: 'eventbrite-widget-container-154870236045',
+
+                                // Optional
+                                iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                                onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                            });
+                        </script>
                     </div>
 
                 </div> <!-- End Middle Column-->
@@ -207,5 +226,24 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!-- Internal JS -->
         <script src="js/smoothScrolling.js"></script>
+        <!-- EventBrite JS -->
+        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+        <script type="text/javascript">
+            //var exampleCallback = function() {
+            //    console.log('Order complete!');
+            //};
+
+            window.EBWidgets.createWidget({
+                // Required
+                widgetType: 'checkout',
+                eventId: '154870236045',
+                iframeContainerId: 'eventbrite-widget-container-154870236045',
+
+                // Optional
+                iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                //onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+            });
+        </script>
     </body>
 </html>
