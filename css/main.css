@@ -137,14 +137,86 @@ footer a {
     background: #4267B2;
     color: white;
 }
-.fa-instagram {
-    background: #C13584;
-    color: white;
-}
 .fa-twitter {
-    background: #1DA1F2;
+    background: #55ACEE;
     color: white;
 }
+.fa-google {
+    background: #0F9D58;
+    color: white;
+}
+.fa-linkedin {
+    background: #2867B2;
+    color: white;
+}
+.fa-youtube {
+    background: #FF0000;
+    color: white;
+}
+.fa-instagram {
+    background: #E1306C;
+    color: white;
+}
+.fa-pinterest {
+    background: #E60023;
+    color: white;
+}
+.fa-snapchat-ghost {
+    background: #FFFC00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+.fa-android {
+    background: #78C257;
+    color: white;
+}
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
+}
+.fa-vimeo {
+    background: #45bbff;
+    color: white;
+}
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+.fa-vine {
+    background: #00b489;
+    color: white;
+}
+.fa-foursquare {
+    background: #45bbff;
+    color: white;
+}
+.fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+}
+.fa-flickr {
+    background: #f40083;
+    color: white;
+}
+.fa-yahoo {
+    background: #430297;
+    color: white;
+}
+.fa-soundcloud {
+    background: #ff5500;
+    color: white;
+}
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+.fa-rss {
+    background: #ff6600;
+    color: white;
 footer .fa {
     padding: 2px;
     margin: 3px 1px;
