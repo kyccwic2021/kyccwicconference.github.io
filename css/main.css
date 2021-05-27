@@ -38,9 +38,15 @@ nav {
 /* change top display that replaces jumbo on additional pages */
 .top_display {
     text-align: center;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,241,1) 100%);
+    color:#fff;
+    background: #005cb8;
+    background: radial-gradient(circle, #005cb8 0%, #00467f 100%);
+    padding-bottom: 1em;
+    padding-top: 1em;
     
+}
+div.top_display h1, div.top_display h4 {
+    color: #fff;
 }
 
 
@@ -92,6 +98,11 @@ hr {
     font-family: 'Ultramagnetic Bold', 'Century Gothic', 'Arial', sans-serif;
     font-weight: bold;
     color: #00467f;
+}
+
+/* change font size for speaker accordion names */
+button.bio_card {
+    font-size: large;
 }
 
 
