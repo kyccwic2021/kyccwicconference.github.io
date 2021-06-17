@@ -40,7 +40,8 @@ nav {
     text-align: center;
     color:#fff;
     background: #005cb8;
-    background: radial-gradient(circle, #005cb8 0%, #00467f 100%);
+    /* background: radial-gradient(circle, #005cb8 0%, #00467f 100%); */
+    background: radial-gradient(circle, #00467f 0%, #011d41 100%);
     padding-bottom: 1em;
     padding-top: 1em;
     
@@ -121,6 +122,30 @@ button.bio_card {
     padding-right: 1em;
 }
 
+/* change agenda nav styling */
+.agenda-tab {
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00467f;
+}
+
+/* change agenda image styling for carousel bgs */
+.carousel-item {
+    background-image: linear-gradient(#011d41, #00467f);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: .5em 3em 1em;
+    height: 15rem;
+    
+}
+/* change agenda image styling for carousel bgs */
+.agenda-img {
+    width: 100%;
+    max-height: auto;
+    margin-top: auto;
+}
 
 /* change footer color */
 footer {
