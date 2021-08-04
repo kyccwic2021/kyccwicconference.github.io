@@ -78,6 +78,15 @@ hr {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* styling for the large clickable external logos on the right-most column of the site */
+.clickable-img {
+    padding: 0px, 0px;
+    transition: padding 300ms;
+}
+.clickable-img:hover {
+    padding: 4px 4px;
+}
+
 /* change speaker images  */
 #speaker_img {
     border: 1px solid #eee;
@@ -206,13 +215,14 @@ footer a {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    transition: opacity .3s;
+    transition: opacity 200ms,
+        text-shadow 300ms;
 }
 .fa:hover {
-    opacity: 0.9;
+    opacity: 0.95;
     text-decoration: none;
     color: #fff;
-    text-shadow: -2px 2px 4px #333;
+    text-shadow: -2px 3px 4px #222;
 }
 .fa-facebook {
     background: #4267B2;
