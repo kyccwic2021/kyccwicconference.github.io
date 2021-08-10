@@ -1,3 +1,24 @@
+:root {
+    /*
+    --main_gradient: linear-gradient(
+      45deg,
+      #030032 0%,
+      #090979 35%,
+      #00d4ff 100%
+    );
+    */
+
+    --main_gradient: linear-gradient(
+        45deg,
+        #011d41 0%,
+        #00467f 38%,
+        #005cb8 65%,
+        #3bb3e5 87%,
+        #27f5f5 100%
+    );
+}
+
+
 /* change the font family and weight of the navbar */
 nav {
     font-family: 'Ultramagnetic Bold', 'Century Gothic', 'Arial', sans-serif;
@@ -63,8 +84,8 @@ nav > div > .btn:focus {
     background-color: rgba(15, 17, 39, 0.50);
     padding: 1rem 5rem;
     border-radius: 1.5rem;
-    transition: background-color 350ms ease,
-        border-radius 450ms ease;
+    transition: background-color 250ms ease,
+        border-radius 250ms ease;
 }
 #jumbo_fx:hover, jumbo_fx:focus-within {
     background-color: rgba(15, 17, 39, 0.75);
@@ -80,7 +101,29 @@ nav > div > .btn:focus {
 #jumbo_fx > .btn:focus {
     color: white; /* placeholder for hover stuff soon */
 }
-
+/*gradient button in jumbotron for main call to action */
+/*
+.gradient-button {
+    border: 0;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .5em 1.5em;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: white;
+    background-image: var(--main_gradient);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 750ms ease;
+}
+.gradient-button:hover,
+.gradient-button:focus {
+    background-position: right;
+    text-decoration: none;
+    color:white;
+}
+*/
 
 
 /* mini-header for medium viewports and smaller in place of jumbotron */
@@ -108,13 +151,24 @@ nav > div > .btn:focus {
     color:#fff;
     background: #005cb8;
     /* background: radial-gradient(circle, #005cb8 0%, #00467f 100%); */
-    background: radial-gradient(circle, #00467f 0%, #011d41 100%);
+    /* background: radial-gradient(circle, #00467f 0%, #011d41 100%); */
+    background-image: var(--main_gradient);
+    background-size: 400%;
     padding-bottom: 1em;
     padding-top: 1em;
+    animation: top-display-animation 20s infinite alternate;
     
 }
 div.top_display h1, div.top_display h4 {
     color: #fff;
+}
+@keyframes top-display-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
 }
 
 
@@ -137,7 +191,44 @@ hr {
     background-color: #e7a614;
 }
 
-
+/* 
+    customize text and typography further 
+*/
+.page-title-heading {
+    font-size: 4rem;
+    line-height: 95%;
+    padding-bottom: 2rem;
+    padding-top: .5rem;
+}
+.section-title-heading {
+    font-size: 2.75rem;
+    line-height: 95%;
+    padding-bottom: .25rem;
+    padding-top: .5rem;
+}
+/* testimonial block is the italics section on a page that needs to have limited character width to be a little more readable */
+/* this can be seen on the event committee page after the title */
+.testimonial-block {
+    font-style: italic;
+    max-width: 70ch;
+    padding: .25rem .5rem;
+    color:rgb(99, 99, 99)
+}
+.blocky-text {
+    line-height: 180%;
+    color: rgb(50, 50, 50);
+    padding-bottom: .25rem;
+    padding-top: .5rem;
+}
+.less-blocky-text {
+    line-height: 150%;
+    color: rgb(50, 50, 50);
+}
+/* remove excess spacing at bottom of speaker links to external pages */
+.speaker-external-link{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 
 /* change decorative images */
@@ -153,10 +244,10 @@ hr {
 /* styling for the large clickable external logos on the right-most column of the site */
 .clickable-img {
     padding: 0px, 0px;
-    transition: padding 300ms;
+    transition: padding 250ms;
 }
 .clickable-img:hover {
-    padding: 4px 4px;
+    padding: 3px 3px;
 }
 
 
@@ -248,6 +339,16 @@ button.bio_card {
     width: 100%;
     max-height: auto;
     margin-top: auto;
+}
+
+
+/* create effects and styling for card accordions for speakers */
+.card-header {
+    background-color:#eee;
+}
+.card-header:hover, 
+.card-header:focus-within {
+    background-color: #fafafa;
 }
 
 
