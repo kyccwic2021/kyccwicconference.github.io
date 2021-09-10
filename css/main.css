@@ -278,7 +278,6 @@ hr {
 
 
 
-
 /* change accordion heading style for member list */
 .bio_card {
     font-family: 'Ultramagnetic Bold', 'Century Gothic', 'Arial', sans-serif;
@@ -548,4 +547,6 @@ footer .fa {
 }
 
 
-
+.canceled-session {
+    color: gray;
+}
