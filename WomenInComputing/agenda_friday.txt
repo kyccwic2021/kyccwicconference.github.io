@@ -1,0 +1,800 @@
+<!-- Kentucky Community Colleges Women in Computing site - kyccwic.org -->
+<!-- Jon McDermott, 2021 -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Social Media Icon Integration-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Internal CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/ico" href="favicon.ico">
+        <title>Women In Computing</title>
+    </head>
+    <body id='mainPage' data-spy='scroll' data-target='.navbar' data-offset='10'>
+
+        <!-- NAVBAR -->
+        <!-- About, Speakers, Event Committee, Register Now -->
+        <nav id="main_nav" class="navbar navbar-expand-lg sticky-top navbar-custom">
+        <!--nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top"-->
+            <a class="navbar-brand" href="/">
+                <img src="images/l-KYCC.png" width="30" height="30" alt="">
+                KYCCWIC
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Agenda
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="agenda_overview.html">Overview</a>
+                          <a class="dropdown-item" href="agenda_thursday.html">Thursday</a>
+                          <a class="dropdown-item" href="agenda_friday.html">Friday</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Speakers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="keynote.html">Keynote</a>
+                          <a class="dropdown-item" href="breakout.html">Breakout Sessions</a>
+                          <a class="dropdown-item" href="employment.html">Employment Panel</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="committee.html">Event Committee</a>
+                    </li>
+                </ul>
+                <a id="nav_button" class="btn btn-warning" href="register.html" role="button">Register Now</a>
+            </div>
+        </nav><!-- End of navbar -->
+
+        <!-- Jumbotron KYCCWIC -->
+        <!--div id="top_jumbo" class="d-none d-md-block jumbotron text-center">
+          <div id="jumbo_fx">
+            <h1 id="jumbo_head" class="display-4">Kentucky Community Colleges Women in Computing</h1>
+            <h4>Embrace Change & Achieve Success</h4>
+            <p id="jumbo_lead" class="lead">Join us virtually for the <strong>2021 Women in Computing Celebration</strong></p>
+            <a class="btn btn-primary btn-lg" href="#register" role="button">Join us!</a>
+          </div>
+            
+        </div-->
+
+        <!-- Top bar reduced -->
+        <div class="d-none d-md-block top_display mb-3">
+            <h1>2021 ACM-W & KYCC</h1>
+            <h1 class="display-4">Celebration of Women In Computing</h1>
+            <h4>Embrace Change & Achieve Success</h4>
+        </div>
+        
+        <!-- Content container -->
+        <!-- Set grid for sidebars with content centered until breakpoint-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Left-most column -->
+                <div class="d-none d-lg-block col-lg-2 bg-light">
+                    <div class="pt1">
+                        <!-- Date info-->
+                        <h4>Meeting Date</h4>
+                        <h5>September 9-10, 2021</h5>
+                        <p class="less-blocky-text">
+                            Virtual meeting sponsored by <a href="https://southcentral.kctcs.edu/" target="_blank"><strong>Southcentral Kentucky Community & Technical College</strong></a> with support
+                            from the <a href="https://women.acm.org/" target="_blank"><strong>Association for Computing Machinery</strong></a> as part of this year's 
+                            celebration of Women in Computing. This year's theme is <em>Embrace Change & Achieve Success</em>!
+                        </p>
+                        <p class="less-blocky-text">
+                            Meeting will be held via Microsoft Teams. Follow the link to register now!
+                        </p>
+                        <p><a id="side_link" href="register.html">Get Registered</a></p>
+
+                        <hr>
+
+                        <!-- Contact info-->
+                        <h4>Event Contact</h4>
+                        <p><strong>Carmen Gaskins</strong></p>
+                        <p><a id="side_link" href="mailto:carmen.gaskins@kctcs.edu">Email</a></p>
+
+                        <hr>
+
+                    </div>
+                </div> <!-- End Left Column-->
+
+
+                <!-- Central column (main content)-->
+                <div id="center_column" class="col-lg-8">
+                    <!-- Agenda -->
+                    <h2 class="section-title-heading">Friday, September 10</h2>
+                    <br>
+
+                    <!-- sub nav -->
+                    <ul class="nav nav-tabs" id="agendaTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link agenda-tab active" id="nine-tab" data-toggle="tab" href="#nineblock" role="tab" aria-controls="nineblock" aria-selected="true">9:00 A.M.</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link agenda-tab" id="ten-tab" data-toggle="tab" href="#tenblock" role="tab" aria-controls="tenblock" aria-selected="false">10:00 A.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="eleven-tab" data-toggle="tab" href="#elevenblock" role="tab" aria-controls="elevenblock" aria-selected="false">11:00 A.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="twelve-tab" data-toggle="tab" href="#twelveblock" role="tab" aria-controls="twelveblock" aria-selected="false">12:00 P.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="one-tab" data-toggle="tab" href="#oneblock" role="tab" aria-controls="oneblock" aria-selected="false">1:00 P.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="two-tab" data-toggle="tab" href="#twoblock" role="tab" aria-controls="twoblock" aria-selected="false">2:00 P.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="three-tab" data-toggle="tab" href="#threeblock" role="tab" aria-controls="threeblock" aria-selected="false">3:00 P.M.</a>
+                        </li>
+                    </ul><!-- end of sub nav -->
+
+                    <br>
+
+                    <div class="tab-content">
+
+                        <!-- 9 TAB -->
+                        <!--div class="tab-pane active" id="overview" role="tabpanel" aria-labelledby="overview-tab"></div-->
+                        <div class="tab-pane active" id="nineblock" role="tabpanel" aria-labelledby="nine-tab">
+                            <h3>Welcome and Keynote Speaker</h3>
+                            <div class="card session-card" style="width: auto;">
+                                
+                                <div class="card-body">
+                                  <h5 class="card-title">What Are You Really Afraid Of? : Overcoming & Facing Your Fears to Embrace Change</h5>
+                                  <p><em><strong>Chloe Gooden, M.A.</strong></em></p>
+                                  <p class="card-text">When we first hear something is changing in our lives, whether it’s a relationship, news we found out at the doctor, or a change in our role at work, feelings of stress and anxiety immediately come up. We start thinking: <em>“How is this going to affect me?” “Can I do this?” “What if I can’t?”</em>  We’ve all had these moments of fear and doubt when we are approached with change. But what really is the root of those thoughts? Why do we go into panic mode just because there is a change versus embracing it with hope and positivity? Let’s get to the root of these feelings and learn how to overcome these feelings; embrace change and thrive!</p>
+                                  <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2U5ZTQyYjMtMDZjZi00M2Q0LTk4NmEtODkwZjZmNDZiMzdl%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary btn-lg">Join on Teams</a>
+                                </div>
+                                <img class="card-img-top" style="width: auto" src="images/KYCC_WiC.PNG" alt="KYCCWIC"><!--max-height: 50rem; overflow: hidden; object-fit: cover; object-position: top;-->
+                            </div>
+                        </div>
+
+                        <!-- 10 TAB -->
+                        <!--div class="tab-pane" id="thursday" role="tabpanel" aria-labelledby="thursday-tab"></div-->
+                        <div class="tab-pane" id="tenblock" role="tabpanel" aria-labelledby="ten-tab">
+                            <h3>10:00 a.m. Breakout Sessions</h3>
+
+
+                            <div class="row">
+
+                                <!---->
+                                <!-- FIRST COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    <!-- Internet of Things Preparing the Future Technical Workforce -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Internet of Things - Preparing the Future Technical Workforce</h5>
+                                        <p><em><strong>Dr. John Sands, Dr. Kristine Christensen, Chuck Bales</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">This session will share research findings from the Internet of Things Coordination Network at Moraine Valley Community College. The College has engaged business partners, federal agencies and academia in defining the role of the technical workforce. Members of this network represent manufacturers, integrators, healthcare environments, home automation and smart city applications. This session will share new research data used to define common work roles, student competencies and program outcomes that can be used in developing degreed programs, majors, certificates and courses to teach applications of IoT technologies. The session will also share new course content used to enable business applications of this emerging technology. The team has also developed multidisciplinary content that is available through the network.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjM2YjllZmQtOTQ3MC00ZTMzLWE0Y2QtYTU4MGYzYzdiNzI2%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- 21 New Technologies of 2021 -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">21 New Technologies of 2021</h5>
+                                        <p><em><strong>Corinne Hoisington</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">AI is driving the innovation. AI is driving the creativity. AI and the use of that is going to determine our workers' ability to compete in the 21st century global marketplace. See the next generation of automatic dictation tools as I speak on your phone (not a recording), learn to translate the voices of your international meetings into 100s of languages on everyone's personal devices with AI, connect with Virtual Reality to onboard your new employees, and take a proactive approach to educating yourself on the latest digital apps to assist in travel connections, to schedule meetings and handle expense reports. We will sit on the edge of our seats as we take a look at how the Microsoft Neo and Duo devices change your office workflow. Clearly Arthur Clarke was right ---"Any sufficiently advanced technology is indistinguishable from magic!" Be the one to come back to your office, with the latest technology and efficiency magic!</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWU2MjEzZWUtZDliNi00OGFlLTg0MzAtZWYyNWM5N2IxZDFi%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Are you interested in starting a small business? -->   
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Are you interested in starting a small business?</h5>
+                                        <p><em><strong>Michele Kors</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">This breakout session will discuss the 10 steps to start your own business.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmFiNTNhMmMtZTQzYy00YzcxLTg0NTctMWFhYTRiMWJlNmYy%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!---->
+                                <!-- SECOND COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    <!-- Cyber Health CANCELED -->
+                                    <!--div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Cyber Health</h5>
+                                        <p><em><strong>Art McFadden, Sarah Hayter, Margaret Hostetler</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">When we look at cyber safety, most people just think about their computer getting infected with a threat, when your cyber health is much more than that.  Would you go to your eye doctor if you thought you were having a heart attack?  No.  Just like your own health, there are several parts to your overall cyber health.  In this break out session we will discuss some of these components, and how they can positively or negatively affect you.  From your social media to the light switch in your home, all of these things can help you or hurt you.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGRjMTVjZGItNDg5OS00MmJiLWI4MzItMTc1MzJhNWI3NzU5%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div-->
+
+
+                                    <!-- What Is Cybersecurity Analytics? -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">What Is Cybersecurity Analytics?</h5>
+                                        <p><em><strong>Dr. Mark Ciampa</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">Two of the hottest topics in IT today are "cybersecurity" and "data analytics." What happens if we mesh these two topics together? That gives us "cybersecurity analytics," which has become a key element in the cybersecurity world today. Organizations are using data analytics, artificial intelligence (AI), and machine learning (ML) to not only proactively respond to attacks but also to predict attacks before they occur. And new industry certifications on cybersecurity analytics are now available. What exactly is cybersecurity analytics? How is it being used? What cybersecurity analytics certifications are available? And how can someone who is interested in this key area learn more about it as a career path? This session will look at cybersecurity analytics.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmQ2YmZlOTMtZjI3My00YzA1LThkZWQtMWUwZDcxY2RhYjVm%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- LinkedIn Tips & Tricks -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">LinkedIn Tips & Tricks</h5>
+                                        <p><em><strong>Cori Haber</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">In this breakout session, participants will learning how to make a profile that draws attention and makes a person stand out, how to make posts more visible to more people, how to network effectively on LinkedIn, and how often to use LinkedIn.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmNlMDE1NTEtYjFkZi00OTUwLWJiNTgtNzQyOWRmOTRjZGI5%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!---->
+                                <!-- THIRD COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- 3D Imaging -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">3D Imaging</h5>
+                                        <p><em><strong>David Dechow</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">A critical and evolving imaging technology in both machine vision and computer vision is 3D imaging. From industrial applications in measurement, inspection, and autonomous robotic guidance to automated driving and beyond, the use cases in both automation and consumer applications for 3D imaging are growing as component and software offerings continue to advance. 
+                                            This discussion will examine the latest 3D technologies and the applications served along with notes on practical implementation and related benefits and limitations.  The presentation also will emphasize software and algorithms – including discrete and deep learning tools - that enable successful acquisition and analysis of 3D image content.   We will conclude with a look at future trends and a Q&A period for audience inquiries and input.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2IwOGVhNmMtNGFkNS00NWMzLThiZmUtNjA2OTI4ZWU2YjY1%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Effective Time Management in Our Increasingly Digital Environment -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Effective Time Management in Our Increasingly Digital Environment</h5>
+                                        <p><em><strong>Randy Nordell</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">As many of us have pivoted into an online and virtual environment, managing our time and the volume of email we receive each day can be overwhelming. This webinar will provide time management tips using Outlook and Microsoft 365 apps to help you more effectively use these technology tools. Topics to be covered include Outlook, To Do, OneNote, and other Microsoft Apps.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGM2NjBiZWEtMGU4ZS00MWY3LWExNWUtN2NmNzc4NTQzMzI1%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            
+
+
+                        </div>
+
+                        <!-- 11 TAB -->
+                        <div class="tab-pane" id="elevenblock" role="tabpanel" aria-labelledby="11-tab">
+                            <h3>11:00 a.m. Breakout Sessions</h3>
+                            <div class="row">
+                                    <!---->
+                                <!-- FIRST COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- Cybersecurity Curricular Guidelines and Standards for Two-Year College -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Cybersecurity Curricular Guidelines and Standards for Two-Year College</h5>
+                                        <p><em><strong>Cindy Tucker</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">The Association of Computing Machinery Committee for Computing Education in Community Colleges (ACM CCECC) serves and supports community and technical college educators in all aspects of computing education, including developing ACM curricular guidelines for two-year colleges.  Their most recently published work is an ACM cybersecurity curricular guideline for two-year colleges. This session will (1) provide an overview of the new two-year cybersecurity curricular guidance, (2) describe how it aligns with other cybersecurity recommendations (i.e. the NSA/DHS Centers of Academic Excellence in Cybersecurity knowledge units and outcomes, and the National Institute of Standards and Technology (NIST) cybersecurity framework), (3) discuss its relationship to ABET accreditation for cybersecurity two year colleges, and (4) present how it relates to the newly approved KCTCS AAS cybersecurity curriculum.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2VjYjg3N2MtYmZkNS00MmQ2LWEwMzAtY2RjMWM0OGM3MmY0%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Digital Forensics:  An Overview -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Digital Forensics:  An Overview</h5>
+                                        <p><em><strong>Cheryl Purdy</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">In 2016, the US Census Bureau reported 89% of American households possessed at least one computer.  More than half of jobs in the world today use a computer. In addition to computers, most working adults are, at least somewhat, fluent in the use of smartphones, smart TVs, tablets, home assistants, and more.  As the benefits from the number and types of devices have grown exponentially, so has the potential for their misuse. Digital forensics is a branch of the forensic sciences involving identifying, preserving, analyzing, and documenting digital evidence.  Join us in this session to learn what is digital evidence, where to find it, digital forensics principles and processes, and how the use of digital forensics has impacted criminal investigations over the past decade.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWYxM2Q3YzMtZTI5OC00MjA1LTkzMmQtNTY5ZTk4NTAyMjM2%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Personalities in the Workplace (Tonya Matthews) -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Personalities in the Workplace</h5>
+                                            <p><em><strong>Tonya L. Matthews</strong></em></p>
+                                            <button type="button" class="collapsible">Learn more...</button>
+                                            <div class="card-text collapsible-content">
+                                                <p>
+                                                    Succeeding at work and in our career-field takes more than technical training.
+                                                    Understanding the personalities of others can help us in our daily progress and
+                                                    interactions. Knowing how a co-worker is likely to see and respond to the world around
+                                                    them—and especially understanding why—can eliminate conflict and increase productivity.
+                                                </p>
+                                                <p>
+                                                    Understanding our personality, our co-workers’ personalities and our employees’
+                                                    personalities is an indispensable part of being a good manager, a good teammate, and just
+                                                    the best human being possible. Awareness of personality helps us reduce stressors in our
+                                                    environments, cultivate healthier working relationships and develop healthier lifestyles.
+                                                </p>
+                                                <p>
+                                                    This session is an overview of the Myers-Briggs Type Indicator®. It is based on well-
+                                                    researched and validated personality theory with proven applications in a variety of fields,
+                                                    including organizational development, management consulting, personal coaching for
+                                                    executives and managers, leadership development and team building, and counseling for
+                                                    individuals and families.
+                                                </p>
+                                            </div>
+                                            <a href="#" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <!---->
+                                <!-- SECOND COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- Data Mining and Machine Learning -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Data Mining and Machine Learning</h5>
+                                        <p><em><strong>Dr. Huanjing Wang</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">Huge amounts of data have been collected in many fields, including business, industry, science, medicine, etc. Data mining and machine learning is the process of automatically discovering useful information in large data repository. Data mining and machine learning combines traditional data analysis methods with sophisticated algorithms for processing the big data. In this talk, I will introduce the concept, applications, and main algorithms of data mining and machine learning.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTUyMThmZDEtMGNiMS00OGUyLTlmNWUtOTBjYTdkNjcwZGM2%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Data Analytics Presented in Population Health -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Data Analytics Presented in Population Health</h5>
+                                        <p><em><strong>Roberta Darnez Pope, Dr. Shannon Houser</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">This work has been published by the efforts of AHIMA Foundation Research Network Population Health Workgroup. The COVID-19 pandemic has increased the emphasis on population health, therefore potentially amplifying demand for healthcare workforce professionals in this area. There is an urgent need to explore and define the roles of health information management (HIM) professionals in the population health workforce. This study sought to identify the skill sets and qualifications needed, and HIM education alignment with skills necessary for HIM professionals entering the population health workforce. An intentionally broad internet search of job postings was conducted to determine skills in population health. Population health-related job descriptions and qualification requirements were abstracted and analyzed using ATLAS.ti. Three common job categories were identified: management, analytics, and coding. Skill set requirements included soft skills, problem solving, project management, research, and data analysis. The study results identified HIM educational alignment and found that HIM professionals are generally a good fit to meet the increased need in the population health workforce.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTM5NWNmZGUtN2U3My00MTBmLTkzMTUtNDk3ZWZjOWYzODYw%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Coaching to Develop Others -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Coaching to Develop Others</h5>
+                                        <p><em><strong>Cindy Hines</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">In this presentation, participants will be able to provide specific feedback to others, recognize and reinforce people's developmental efforts, and share information, advise, and suggestions to help others to be more successful.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzY4YmJlMTMtMTIwOC00MDk5LTgwODQtMzVhN2UwYmFjMjA5%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <!---->
+                                <!-- THIRD COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- Tips and Strategies for Strengthening Your Voice in IT Workplace Communications -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Tips and Strategies for Strengthening Your Voice in IT Workplace Communications</h5>
+                                        <p><em><strong>Dr. Tamela Smith</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">This session is for anyone who has ever felt their ideas and comments were overlooked in a professional IT meeting. While this is a frequently reported problem for women in the workplace, it can happen to anyone. Recognizing the issue is a start to resolving it. This session will focus on proven ideas and techniques to ensure your voice is heard in meetings whether in-person and virtual and in written communications as well.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmFiZTI4ZDUtNDEyNi00NDdkLWI2N2QtOTU1OTVjZjBkNWFi%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Social Media: The Good, the Bad, and the Ugly -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Social Media: The Good, the Bad, and the Ugly</h5>
+                                        <p><em><strong>Art McFadden, Sarah Hayter, Margaret Hostetler</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">Social media plays a part for most of us in our personal life and our professional life.  What will your potential employers think of you based on your online presence?  What are the looking for?  How far will they or can dig?  What about AFTER your employed?  We will discuss what we should be doing and NOT be doing online in this break out session.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWIyMjdlZGItZWMyNC00MjQyLWJmNmMtZjJiMWM3YTRhNTAz%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+
+                            
+                        </div>
+
+                        <!-- 12 TAB -->
+                        <div class="tab-pane" id="twelveblock" role="tabpanel" aria-labelledby="twelve-tab">
+                            <h3>Employment Panel</h3>
+                            <div class="card session-card" style="width: auto;">
+                                
+                                <div class="card-body">
+                                  <h5 class="card-title">Employment Panel Q & A</h5>
+                                  <p><em><strong>Andrea Sherrill, Elissa Shuck, Jessica Nations</strong></em></p>
+                                  <p class="card-text">We have three expert panelists that will discuss and answer questions to help you navigate through your professional career. They want to teach and coach you along in some of the tricks of how to be successful in job searches, resume writing skills, and interview tips.  These ladies know what it takes to succeed professionally, and they want to share their expertise with you to help you immediately be job marketable. You can be successful. Start learning from their expertise and jump start your career now!</p>
+                                  <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGRkNTFmOWItZDA1OS00Mzc4LTk5ZmEtOTk4Y2QzMTY1NWYx%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary btn-lg">Join on Teams</a>
+                                </div>
+                                <!--img class="card-img-top" style="width: auto" src="images/KYCC_WiC.PNG" alt="KYCCWIC"--><!--max-height: 50rem; overflow: hidden; object-fit: cover; object-position: top;-->
+                            </div>
+                        </div>
+
+                        <!-- 1 TAB -->
+                        <div class="tab-pane" id="oneblock" role="tabpanel" aria-labelledby="one-tab">
+                            <h3>1:00 p.m. Breakout Sessions</h3>
+
+                            <div class="row">
+                                <!---->
+                                <!-- FIRST COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- Open Source/Free Digital Forensic Tools -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Open Source/Free Digital Forensic Tools</h5>
+                                        <p><em><strong>Cheryl Purdy</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">There are a number of commercial tools on the market today used in the digital forensic field.  Many of these are quite costly!  However, there are also a number of open source and free digital forensics tools.  Join us in this session for a primer on using FTK Imager; Autopsy; Magnet Acquire; NirSoft suite of tools; RegRipper, and more.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2ZmOGZkODQtNjMzZi00MDJmLWJjYWUtMDk2YTEwZTEyOGQ1%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Demystifying the Cloud - a Primer on Cloud Technology -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Demystifying the Cloud - a Primer on Cloud Technology</h5>
+                                        <p><em><strong>Tony Kirchner</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">Everyone uses the terms "in the cloud", "cloud computing", and "cloud-based" often without understanding the basics of cloud computing.  This session will be an overview of what cloud computing really is, the many facets of cloud computing, and the potential cloud computing provides both individuals, small businesses, and corporate giants.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGFlZmQyNmMtODA4NC00MTJiLTljNzYtMmI5ZWNhNjZmYjVj%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Getting Started with Python -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Getting Started with Python</h5>
+                                        <p><em><strong>Maureen Doyle</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">An introduction to the history of Python, free Python tools and writing your first Python program.   It is a welcoming scripting language which allows you to get comfortable with basics and then add libraries for analytics and graphics!  By the end of this session, you will have installed a Python development environment, developed a Python program and know how to get open source documentation and help.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGI0NGJhNmMtNGE3YS00YmM3LThjYmItOGNhMGYwNTBhNWYz%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <!---->
+                                <!-- SECOND COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- Human To Human- Humanizing Marketing Automation -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Human To Human- Humanizing Marketing Automation</h5>
+                                        <p><em><strong>Braden Wallake</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">Robots will never replace humans in sales, but they can enhance the human to human experience in sales/marketing.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWU5N2ViMjctOTljNy00ZGFiLWI2NjYtNzJmZjY4MjVjZjUw%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- How NCWIT Helps Women Embrace Change and Achieve Success -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">How NCWIT Helps Women Embrace Change and Achieve Success</h5>
+                                        <p><em><strong>Eva Bradshaw</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">The National Center for Women & Information Technology (NCWIT) is a non-profit community of nearly 1,500 universities, companies, non-profits, and government organizations nationwide working to increase the influential and meaningful participation of girls and women at the intersections of race/ethnicity, class, age, gender identity, sexual orientation, disability status, and other historically marginalized identities in the field of computing, particularly in terms of innovation and development. NCWIT equips change leaders with resources for taking action in recruiting, retaining, and advancing women from K-12 and higher education through industry and entrepreneurial careers.  College students can join a vibrant community of thousands of high school, college, and early-career women in tech. Community members can exchange ideas and advice with technical women who have many different interests, strengths, and connections. Members gain exclusive access to computing hackathons, internships, scholarships, jobs and more.  The NCWIT Collegiate Award honors the outstanding computing accomplishments of community college, undergraduate and graduate students who self-identify as women, genderqueer, or non-binary. Conferred annually, the award recognizes technical contributions to projects that demonstrate a high level of innovation and potential impact.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_Mjg3ZDI3ZmUtNjcwZi00YzQ3LWE1ZWEtOGMwNjZkMDM0ZWIw%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Resume & Interview Tips -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Resume & Interview Tips</h5>
+                                        <p><em><strong>Rosa Richards</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">A good resume makes it easy for hiring professionals to see that you have the qualifications they are looking for on paper, but with proper interview preparation you can prove to them why you are the best candidate for the position. This session will cover best practices and resources that will help you find the best way to tell your story and increase your chances of landing the career of your dreams.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjI3ZjkwNTQtZjk5MC00YzFmLTk1NzUtMzdiMGYyMGFjODFj%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <!---->
+                                <!-- THIRD COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- Technical and Ethical Challenges in the Work from Home Movement -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Technical and Ethical Challenges in the Work from Home Movement</h5>
+                                        <p><em><strong>Frank Sorokach</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <div class="collapsible-content">
+                                            <p>Many changes have occurred in the workforce since the onset of the COVID-19 pandemic.  The most important overarching topic has undoubtedly been the Work from Home (WFH) movement.  As the pandemic accelerated, workers were unexpectedly sent home to continue working.  The result was a change in the attitudes that both employees and employers felt about having employees work from home.  It is anticipated that more people will permanently work from home after the pandemic ends.</p> 
+                                            <p>While the urgency of the pandemic created this significant shift, it did so without regard for how people would be impacted from the perspective of ethics and technology.  This is because the shift occurred without the proper support systems and necessary processes in place to ensure people could smoothly transition.</p>
+                                            <p>There are resulting ethical and technical implications that must be considered as the shift to working from home becomes more permanent for some.  As an example, some employees may benefit from permanently working from home.  Companies may have to reconsider working spaces.  There are implications to women in the workforce, such as balancing work with supervising children attending school from home.</p>
+                                            <p>In terms of technology, high speed internet will still be problematic for those living in rural areas.  Those with suitable broadband access will have to juggle multiple users.  And those that cannot afford a computer at home will likely be issued less effective equipment, as has happened in education.</p> 
+                                            <p>In this session we will explore the implications impacting the growing Work from Home movement.  </p>
+                                        </div>
+                                        
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDc4NzExNGQtM2U2Ni00MjNkLWE2YmYtNmQwMzNiNDE4Nzdh%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- IT Recruitment and Employment Trends -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">IT Recruitment and Employment Trends</h5>
+                                        <p><em><strong>Kara Slone</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">I will be focusing on how organizations and recruitment firms go about searching for technical candidates and teaching them how to maximize their resumes in order to get noticed and increase their chances of being hired. I will also discuss trends in the IT employment industry.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWY4ZTJkOTUtNWY3MS00OWUyLTk0YjUtYTEzNDdiOTkyZjBj%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+
+                            
+                        </div>
+
+                        <!-- 2 TAB -->
+                        <div class="tab-pane" id="twoblock" role="tabpanel" aria-labelledby="two-tab">
+                            <h3>2:00 p.m. Breakout Sessions</h3>
+
+                            <div class="row">
+                                <!---->
+                                <!-- FIRST COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- The History and Current State of Ransomware -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">The History and Current State of Ransomware</h5>
+                                        <p><em><strong>Art McFadden</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">Ransomware is one of the biggest threats to business, not just in the United Sates, but worldwide.  In this presentation we will look at the history Ransomware with the first type of malware extortion attack dating back to 1989.  One of the more famous versions, CryptoLocker, spread like wildfire in 2013 will be discussed.  Different variants will be examined, along with how this threat spreads, how it works, and how to help prevent it.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQzYjliM2EtZmI2ZS00NThjLTllMzEtYmViODU4YzY2ZGRl%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Technology Trends and Practices for Engaging Gen Z and Millennial Students -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Technology Trends and Practices for Engaging Gen Z and Millennial Students</h5>
+                                        <p><em><strong>Dr. Casey Wilhelm</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">In this breakout session the learning traits and preferences of Gen Z and Millennial students will be discussed. Research will be shared that helps to create a better understanding of how these students learn, what technology trends and emerging technologies engage them, and how instruction can be designed to maximize success.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGIyNDg3MTUtN2VmOS00NWYwLWI0ZDUtMzU4ZjYxNGI3M2I0%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <!---->
+                                <!-- SECOND COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- Best Practices to Gain a Competitive Advantage in the Technology Job Market -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Best Practices to Gain a Competitive Advantage in the Technology Job Market</h5>
+                                        <p><em><strong>Jason Momenthy</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">In my session I will discuss methods and habits for differentiation and gaining a competitive advantage in the technology job market. I will be sharing my experiences as both a candidate seeking opportunity early in my career as well as a founder perspective and what I look for when scaling my team. My session will also cover methods for attracting the right kind of attention and the power of community engagement as you explore career opportunities and will also explore how to conduct diligence on career opportunities to help support your decision on if its the right fit.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWFlYTIyOWYtMzA1ZS00ZGRhLWJhYjMtODY0MjM3YWJlYzI0%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Louisville’s Tech & Techquity Revolution -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Louisville’s Tech & Techquity Revolution</h5>
+                                        <p><em><strong>Joshua McKee, Alisia McClain</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">In January 2019, the Brookings Institution released report on automation and A.I. which found that 28% of Louisville’s jobs were at high risk for automation, and nearly 26% of neighboring Lexington’s jobs were identified as high risk. As a result, Mayor Greg Fischer tasked Louisville Metro Government to develop a solution that would add new tech jobs to Louisville and strengthen its workforce so its prepared for the next tech revolution. In July 2019, LouTechWorks, Louisville’s comprehensive tech talent pipeline development program was unveiled. This first-of-its-kind initiative to include K-12, community colleges, public and private four-year universities, and nonprofit entities has seen great success since its inception. The same week LouTechWorks was launched, Microsoft was in town to announce the first-ever Future of Work Initiative (FWI), a public-private partnership between Microsoft and the city of Louisville.  This initiative was designed to kickstart a data ecosystem in Louisville based around innovative technologies such as AI and IoT.  FWI has specifically focused on increasing equity, partnering with education, industry, and community to diversify the data science industry and spark interest in these pathways.  Ultimately, our goal is to provide a framework for Louisville to become a regional hub for AI in social innovation.  Now entering their third year, both LouTechWorks and Louisville Future of Work continue to work in partnership to broaden the tech talent pipeline in Louisville in meaningful ways.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2E3YTcyZDctNjE2ZC00M2ZiLTkxNDgtZThmMWQ5ODhkYWNk%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <!---->
+                                <!-- THIRD COLUMN -->
+                                <!---->
+                                <div class="col-md-4">
+                                    
+                                    <!-- Using Tech to Stay Sane in Sales and Marketing -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Using Tech to Stay Sane in Sales and Marketing</h5>
+                                        <p><em><strong>Charlotte Harrill</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <div class="collapsible-content">
+                                            <p>Whether you are managing projects or managing your time, there are many great tools and practices available today that help keep us on track.  I will dive into how I have learned to use tech to manage the chaotic life and insane schedule that comes with the mortgage profession.  While diving into these great tools, I will highlight some great guides/coaches/ and authors that have helped me navigate some of the toughest most stressful times of my career.</p>
+                                            <ul>
+                                                <li>task management programs and how to integrate them into daily work</li>
+                                                <li>why a digital calendar and ways utilize outside of the normal uses</li>
+                                                <li>top apps for business professionals and anyone who needs a hand with organizing life/biz and schedules</li>
+                                                <li>Why videos and great apps to help get your point across in any field?</li>
+                                            </ul>
+                                        </div>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmFiY2QzY2ItMDBlZS00YmMyLWE4YjktOTg0ZmU0YTRjNjkx%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Guiding Principles for Women Leaders -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Guiding Principles for Women Leaders</h5>
+                                        <p><em><strong>Robin Amonett</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">Whether you are a reluctant leader, a natural-born one, or somewhere in between, you—and every one of us—can grow and develop leadership skills.  In this presentation, we will focus on some principles and skills that can be applied to your personal life as well as your professional one to help open up the door for us to be a positive influence.</p>
+                                        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjYxMTZhNDMtMTdkMC00YjUyLTg3ZDAtODgxOGI3NmFlMzUz%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+
+                            
+                        </div>
+
+                        <!-- 3 TAB -->
+                        <div class="tab-pane" id="threeblock" role="tabpanel" aria-labelledby="three-tab">
+                            <h3>Closing Ceremonies</h3>
+                            <div class="card session-card" style="width: auto;">
+                                
+                                <div class="card-body">
+                                  <h5 class="card-title">Closing & Door Prizes</h5>
+                                  <p>Thank you for joining us this year at our virtual regional ACM-W Celebration of Women in Computing event.  We hope that you have gleaned a wealth of knowledge and tools to be more job marketable and more confident as you move forward in your career. It is our hope that you have developed new professional relationships while learning in areas of job search, resume’ building, interview tips, computer programming, data analytics, computer security, and MUCH more.</p>
+                                <p>As a show of our appreciation for joining us, we plan to wrap-up our day with door prizes. Please listen carefully as we instruct how we will be awarding these items to some lucky winners.</p>
+                                <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGQ5ZTIxZDQtYzk5ZS00YmExLTg1OTktYjZhNGI4MDVmMzEw%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary btn-lg">Join on Teams</a>
+                                </div>
+                                <!--img class="card-img-top" style="width: auto" src="images/KYCC_WiC.PNG" alt="KYCCWIC"--><!--max-height: 50rem; overflow: hidden; object-fit: cover; object-position: top;-->
+                            </div>
+
+
+                            
+                        </div>
+
+                    </div>
+                    
+
+                    <!---->
+                    <!--SCRIPTS FOR CENTER PAGE CONTENT-->
+                    <!---->
+
+                    <!--Script for sub tabs-->
+                    <script>
+                    $(function () {
+                        $('#agendaTab li:last-child a').tab('show')
+                    })
+                    </script>
+
+                    <!--Script for collapsible card content-->
+                    <script>
+                        var coll = document.getElementsByClassName("collapsible");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                        coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active-card");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                            content.style.display = "none";
+                            } else {
+                            content.style.display = "block";
+                            }
+                        });
+                        }
+                    </script>
+
+
+                </div> <!-- End Middle Column-->
+
+
+
+                <!-- Right-most column -->
+                <div class="d-none d-lg-block col-lg-2 bg-light">
+                    <div class="pt-1">
+                        <h5>Visit Us on Social Media!</h5>
+
+                        <!-- Social media links-->
+                        <a href="https://www.facebook.com/groups/1162883927542419/about?accept_recruiting_group_rules=false" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/KyccIn"  target="_blank" class="fa fa-twitter"></a>
+                    </div>   
+
+                    <hr>
+
+                    <!-- Relevant links -->
+                    <a href="https://southcentral.kctcs.edu/" target="_blank"><img class="img-fluid img-rounded img-responsive clickable-img" src="images/l-skyctc.jpg" alt="SKYCTC Logo"></a>
+                    <hr>
+
+                    <a href="https://women.acm.org/" target="_blank"><img class="img-fluid img-rounded img-responsive clickable-img" src="images/l-acm_sm.png" alt="ACM-W Logo"></a>
+                    <hr>
+                </div> <!-- End Right Column-->
+
+            </div> <!-- End Row-->
+        </div> <!-- End Container-->
+
+
+        <!-- Footer-->
+        <footer class="container-fluid text-center text-light mt-3">
+            <!--a type="button" class="btn btn-light btn-sm mt-3" href="#mainPage">
+                to top
+            </a-->
+            <p class="m-0"><small>KYCC Women in Computing &copy; 2021</small></p>
+            <p class="m-0"><small>For further information, please contact Carmen Gaskins via email at <a href="mailto:carmen.gaskins@kctcs.edu">carmen.gaskins@kctcs.edu</a></small></p>
+            <p class="m-0"><small>Created with love by Southcentral Kentucky Community & Technical College alumnus Jon McDermott</small></p>
+            <p class="py-3">
+                Visit our social media pages for the latest event info:
+                <a href="https://www.facebook.com/groups/1162883927542419/about?accept_recruiting_group_rules=false"  target="_blank" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/KyccIn"  target="_blank" class="fa fa-twitter"></a>
+            </p>
+        </footer><!-- End of Footer -->
+
+
+        <!-- Bootstrap JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Internal JS -->
+        <!--script src="js/smoothScrolling.js"></script-->
+        <script src="js/teamsButtonsFriday.js"></script>
+    </body>
+</html>

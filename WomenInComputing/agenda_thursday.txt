@@ -1,0 +1,320 @@
+<!-- Kentucky Community Colleges Women in Computing site - kyccwic.org -->
+<!-- Jon McDermott, 2021 -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Social Media Icon Integration-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Internal CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/ico" href="favicon.ico">
+        <title>Women In Computing</title>
+    </head>
+    <body id='mainPage' data-spy='scroll' data-target='.navbar' data-offset='10'>
+
+        <!-- NAVBAR -->
+        <!-- About, Speakers, Event Committee, Register Now -->
+        <nav id="main_nav" class="navbar navbar-expand-lg sticky-top navbar-custom">
+        <!--nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top"-->
+            <a class="navbar-brand" href="/">
+                <img src="images/l-KYCC.png" width="30" height="30" alt="">
+                KYCCWIC
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Agenda
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="agenda_overview.html">Overview</a>
+                          <a class="dropdown-item" href="agenda_thursday.html">Thursday</a>
+                          <a class="dropdown-item" href="agenda_friday.html">Friday</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Speakers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="keynote.html">Keynote</a>
+                          <a class="dropdown-item" href="breakout.html">Breakout Sessions</a>
+                          <a class="dropdown-item" href="employment.html">Employment Panel</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="committee.html">Event Committee</a>
+                    </li>
+                </ul>
+                <a id="nav_button" class="btn btn-warning" href="register.html" role="button">Register Now</a>
+            </div>
+        </nav><!-- End of navbar -->
+
+        <!-- Jumbotron KYCCWIC -->
+        <!--div id="top_jumbo" class="d-none d-md-block jumbotron text-center">
+          <div id="jumbo_fx">
+            <h1 id="jumbo_head" class="display-4">Kentucky Community Colleges Women in Computing</h1>
+            <h4>Embrace Change & Achieve Success</h4>
+            <p id="jumbo_lead" class="lead">Join us virtually for the <strong>2021 Women in Computing Celebration</strong></p>
+            <a class="btn btn-primary btn-lg" href="#register" role="button">Join us!</a>
+          </div>
+            
+        </div-->
+
+        <!-- Top bar reduced -->
+        <div class="d-none d-md-block top_display mb-3">
+            <h1>2021 ACM-W & KYCC</h1>
+            <h1 class="display-4">Celebration of Women In Computing</h1>
+            <h4>Embrace Change & Achieve Success</h4>
+        </div>
+        
+        <!-- Content container -->
+        <!-- Set grid for sidebars with content centered until breakpoint-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Left-most column -->
+                <div class="d-none d-lg-block col-lg-2 bg-light">
+                    <div class="pt1">
+                        <!-- Date info-->
+                        <h4>Meeting Date</h4>
+                        <h5>September 9-10, 2021</h5>
+                        <p class="less-blocky-text">
+                            Virtual meeting sponsored by <a href="https://southcentral.kctcs.edu/" target="_blank"><strong>Southcentral Kentucky Community & Technical College</strong></a> with support
+                            from the <a href="https://women.acm.org/" target="_blank"><strong>Association for Computing Machinery</strong></a> as part of this year's 
+                            celebration of Women in Computing. This year's theme is <em>Embrace Change & Achieve Success</em>!
+                        </p>
+                        <p class="less-blocky-text">
+                            Meeting will be held via Microsoft Teams. Follow the link to register now!
+                        </p>
+                        <p><a id="side_link" href="register.html">Get Registered</a></p>
+
+                        <hr>
+
+                        <!-- Contact info-->
+                        <h4>Event Contact</h4>
+                        <p><strong>Carmen Gaskins</strong></p>
+                        <p><a id="side_link" href="mailto:carmen.gaskins@kctcs.edu">Email</a></p>
+
+                        <hr>
+
+                    </div>
+                </div> <!-- End Left Column-->
+
+
+                <!-- Central column (main content)-->
+                <div id="center_column" class="col-lg-8">
+                    <h2 class="section-title-heading">Thursday, September 9</h2>
+                    <br>
+
+                    <!-- Agenda -->
+                    
+
+
+     
+                    <div class="card session-card" style="width: auto;">
+                            
+                        <div class="card-body">
+                            <h3 class="card-title">Business/Industry Highlights</h3>
+                            <h5>5:00 P.M. – 7:00 P.M. (CST)</h5>
+                            <p class="card-text">Hear from local businesses about the multitude of career opportunities available for Information Technology graduates. Get inspired by these real-world professionals who are on the cutting edge of technology and innovation. These area companies are successful because they adapt to the changing work environment and offer relevant products/services to a diverse market. You have what it takes to acquire a career in IT, now where will you go?</p>
+                            <button type="button" class="collapsible">Meet the businesses...</button>
+                            <div class="card-text collapsible-content">
+                                
+                                <!-- GERMAN AMERICAN BANK -->
+                                <h3>German American Bank</h3>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <img class="img-fluid img-rounded img-responsive" src="images/businesses/german_american_bank_logo.png" alt="German American Bank">
+                                        <address>
+                                            711 Main Street <br>
+                                            Jasper, IN <br>
+                                            <br>
+                                            <a href="https://www.germanamerican.com">germanamerican.com</a> <br>
+                                            <a href="mailto:ann.brown@germanamerican.com">ann.brown@germanamerican.com</a>
+                                        </address>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>Mission Statement</h5>
+                                        <p>German American is dedicated to helping individuals, families and businesses achieve greater prosperity and quality of life. Together, our financial team builds lasting client relationships based on integrity, responsive service, innovation, and shared values. We support the communities we serve and believe that when a community thrives, its people prosper.</p>
+                                        <h5>Business Overview</h5>
+                                        <p>German American is a very strong financial services provider in southern Indiana and Kentucky, specializing in banking, insurance, investments and wealth management for business and retail customers. In 1910, German American was founded in a community located in the heart of the Ohio Valley Region, which was rich in German American heritage.Today, its headquarters remain in Jasper, Indiana. The employees of German American strive to establish strong relationships by working closely with businesses and individuals and by providing strong financial solutions.</p>
+                                    </div>
+                                </div>
+                                
+                                <hr>
+                                
+                                <!-- KIRKPATRICKPRICE -->
+                                <h3>KirkpatrickPrice</h3>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <img class="img-fluid img-rounded img-responsive" src="images/businesses/kirkpatrick_price.png" alt="Kirkpatrick Price">
+
+                                        <address>
+                                            4235 Hillsborough Pike <br>
+                                            Suite 300 <br>
+                                            Nashville, TN 37215 <br>
+                                            <br>
+                                            360 E. 8th Ave. <br>
+                                            Suite 305 <br>
+                                            Bowling Green, KY 42101 <br>
+                                            <br>
+                                            <a href="https://kirkpatrickprice.com/">kirkpatrickprice.com</a> <br>
+                                            <a href="mailto:ann@kirkpatrickprice.com">ann@kirkpatrickprice.com</a>
+                                        </address>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>Mission Statement</h5>
+                                        <p>We educate, empower and inspire our clients to greater levels of assurance by partnering with them to achieve challenging compliance goals.</p>
+                                        <h5>Business Overview</h5>
+                                        <p>KirkpatrickPrice is a licensed CPA firm and PCI QSA, providing technology related assurance services to clients worldwide. With over 15 years of experience in information assurance by performing assessments, audits, and tests that strengthen information security and compliance controls, we are on a mission to create a simpler, more accessible way to learn about compliance, start an audit and complete quality testing. KirkpatrickPrice is dedicated to educating and inspiring clients throughout their security and compliance journeys.</p>
+                                        <p>Our core services are provided by a team of expert-level Information Security Specialists who typically have 15-20 years of experience in areas such as IT governance, data security, regulatory compliance and cybersecurity. Internally, we also have our own IT department and development team who work to support our team and initiatives as well as develop our client facing tools. As the world of technology rapidly advances our team values continuous learning and certifications in order to identify and protect against the ever-growing threat landscape.</p>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <!-- MED CENTER HEALTH -->
+                                <h3>Med Center Health</h3>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <img class="img-fluid img-rounded img-responsive" src="images/businesses/med_center_health_logo_2.jpg" alt="Med Center Health" style="max-height: 100%; max-width:100%;">
+                                        <address>
+                                            800 Park St. <br>
+                                            Bowling Green, KY 42101 <br>
+                                            <br>
+                                            <a href="https:/medcenterhealth.org/">medcenterhealth.org</a> <br>
+                                            <a href="mailto:martcm01@mchealth.net">martcm01@mchealth.net</a>
+                                        </address>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h5>Mission Statement</h5>
+                                        <p>The Mission at Med Center Health is to care for people and improve the lives in the communities we serve.</p>
+                                        <h5>Business Overview</h5>
+                                        <p>
+                                            Since 1926, Med Center Health has served as the premier provider of healthcare services in Southcentral Kentucky. With six hospitals, 30 clinics, more than 140 providers, and 27 specialties across a 12-county area, nobody offers a wider range of care, right here.
+                                        </p>
+                                        <p>
+                                            Our flagship hospital, The Medical Center at Bowling Green, is a hub of forward thinking and innovation. And no matter where they practice, all of our physicians are driven to achieve the highest possible accreditations, equipping them to employ the latest, innovative approaches to healthcare.
+                                        </p>
+                                        <p>
+                                            Med Center Health’s six hospitals are located in Albany, Bowling Green, Horse Cave, Franklin, and Scottsville. This wide footprint, combined with our commitment to proactively invest in the resources our communities need, helps people heal closer to home. No matter where you live in Southcentral Kentucky, the highest quality care is within your reach.
+                                        </p>
+                                        <p>
+                                            Our commitment to the communities we serve goes beyond improving the health of our patients. As a not-for-profit institution, the monetary benefits we generate far outweigh the taxes we would pay if we were in business to make money. 
+                                        </p>
+                                        <p>
+                                            Med Center Health also maintains public-private partnerships with the area’s finest academic institutions, such as Western Kentucky University and the University of Kentucky. And we are the only provider in the region that partners with UK HealthCare. This unique relationship increases opportunities for research and technology while gaining access to the latest in evidence-based medicine.
+                                        </p>
+                                        <p>
+                                            In addition, the University of Kentucky College of Medicine – Bowling Green Campus, the first 4-year regional medical school in Kentucky, is located on the campus of The Medical Center at Bowling Green. As a teaching hospital, The Medical Center is committed to constantly raising the bar to provide better healthcare for residents of Southcentral Kentucky.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                                        
+                            <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzQzZmE4YjYtZmM2Mi00MzdiLTg0ZTYtNTcyZjM3ZTliZjc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f2e33951-1ec4-4c72-b2bf-a4f4671d64af%22%2c%22Oid%22%3a%2226449b42-421b-4c91-9181-014820e3c7d6%22%7d" target="_blank" class="teams-link-btn btn btn-primary btn-lg mt-2">Join on Teams</a>
+                        </div>
+                    </div>
+
+
+
+                    <!--Script for collapsible card content-->
+                    <script>
+                        var coll = document.getElementsByClassName("collapsible");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                        coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active-card");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                            content.style.display = "none";
+                            } else {
+                            content.style.display = "block";
+                            }
+                        });
+                        }
+                    </script>
+
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+
+                </div> <!-- End Middle Column-->
+
+
+
+                <!-- Right-most column -->
+                <div class="d-none d-lg-block col-lg-2 bg-light">
+                    <div class="pt-1">
+                        <h5>Visit Us on Social Media!</h5>
+
+                        <!-- Social media links-->
+                        <a href="https://www.facebook.com/groups/1162883927542419/about?accept_recruiting_group_rules=false" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/KyccIn"  target="_blank" class="fa fa-twitter"></a>
+                    </div>   
+
+                    <hr>
+
+                    <!-- Relevant links -->
+                    <a href="https://southcentral.kctcs.edu/" target="_blank"><img class="img-fluid img-rounded img-responsive clickable-img" src="images/l-skyctc.jpg" alt="SKYCTC Logo"></a>
+                    <hr>
+
+                    <a href="https://women.acm.org/" target="_blank"><img class="img-fluid img-rounded img-responsive clickable-img" src="images/l-acm_sm.png" alt="ACM-W Logo"></a>
+                    <hr>
+                </div> <!-- End Right Column-->
+
+            </div> <!-- End Row-->
+        </div> <!-- End Container-->
+
+
+        <!-- Footer-->
+        <footer class="container-fluid text-center text-light mt-3">
+            <!--a type="button" class="btn btn-light btn-sm mt-3" href="#mainPage">
+                to top
+            </a-->
+            <p class="m-0"><small>KYCC Women in Computing &copy; 2021</small></p>
+            <p class="m-0"><small>For further information, please contact Carmen Gaskins via email at <a href="mailto:carmen.gaskins@kctcs.edu">carmen.gaskins@kctcs.edu</a></small></p>
+            <p class="m-0"><small>Created with love by Southcentral Kentucky Community & Technical College alumnus Jon McDermott</small></p>
+            <p class="py-3">
+                Visit our social media pages for the latest event info:
+                <a href="https://www.facebook.com/groups/1162883927542419/about?accept_recruiting_group_rules=false"  target="_blank" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/KyccIn"  target="_blank" class="fa fa-twitter"></a>
+            </p>
+        </footer><!-- End of Footer -->
+
+
+        <!-- Bootstrap JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Internal JS -->
+        <!--script src="js/smoothScrolling.js"></script-->
+        <script src="js/teamsButtonsThursday.js"></script>
+    </body>
+</html>

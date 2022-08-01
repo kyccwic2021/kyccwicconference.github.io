@@ -1,0 +1,619 @@
+<!-- Kentucky Community Colleges Women in Computing site - kyccwic.org -->
+<!-- Jon McDermott, 2021 -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Social Media Icon Integration-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Internal CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/ico" href="favicon.ico">
+        <title>Women In Computing</title>
+    </head>
+    <body id='mainPage' data-spy='scroll' data-target='.navbar' data-offset='10'>
+
+        <!-- NAVBAR -->
+        <!-- About, Speakers, Event Committee, Register Now -->
+        <nav id="main_nav" class="navbar navbar-expand-lg sticky-top navbar-custom">
+        <!--nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top"-->
+            <a class="navbar-brand" href="/">
+                <img src="images/l-KYCC.png" width="30" height="30" alt="">
+                KYCCWIC
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <!--COMMENTED OUT AGENDA DROPDOWN
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Agenda
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="agenda_overview.html">Overview</a>
+                        <a class="dropdown-item" href="agenda_thursday.html">Thursday</a>
+                        <a class="dropdown-item" href="agenda_friday.html">Friday</a>
+                      </div>
+                    </li>
+                    COMMENTED OUT AGENDA DROPDOWN-->
+                    <!--COMMENTED OUT SPEAKERS DROPDOWN
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Speakers
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="keynote.html">Keynote</a>
+                        <a class="dropdown-item" href="breakout.html">Breakout Sessions</a>
+                        <a class="dropdown-item" href="employment.html">Employment Panel</a>
+                      </div>
+                    </li>
+                    COMMENTED OUT SPEAKERS DROPDOWN-->
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="committee.html">Event Committee</a>
+                    </li>
+                </ul>
+                <!--REGISTER BUTTON COMMENTED OUT
+                <a id="nav_button" class="btn btn-warning" href="register.html" role="button">Register Now</a>
+                REGISTER BUTTON COMMENTED OUT-->
+            </div>
+        </nav><!-- End of navbar -->
+
+        <!-- Jumbotron KYCCWIC -->
+        <!--div id="top_jumbo" class="d-none d-md-block jumbotron text-center">
+          <div id="jumbo_fx">
+            <h1 id="jumbo_head" class="display-4">Kentucky Community Colleges Women in Computing</h1>
+            <h4>Embrace Change & Achieve Success</h4>
+            <p id="jumbo_lead" class="lead">Join us virtually for the <strong>2021 Women in Computing Celebration</strong></p>
+            <a class="btn btn-primary btn-lg" href="#register" role="button">Join us!</a>
+          </div>
+            
+        </div-->
+
+        <!-- Top bar reduced -->
+        <div class="d-none d-md-block top_display mb-3">
+          <h1>2023 ACM-W & KYCC</h1>
+          <h1 class="display-4">Celebration of Women In Computing</h1>
+          <h4>March 16th & 17th, 2023</h4>
+        </div>
+        
+        <!-- Content container -->
+        <!-- Set grid for sidebars with content centered until breakpoint-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Left-most column -->
+                <div class="d-none d-lg-block col-lg-2 bg-light">
+                    <div class="pt1">
+                        <!-- Date info-->
+                        <h4>Meeting Date</h4>
+                        <h5>March 16-17, 2023</h5>
+                        <p class="less-blocky-text">
+                          More information coming soon!
+                          <!--
+                            Virtual meeting sponsored by <a href="https://southcentral.kctcs.edu/" target="_blank"><strong>Southcentral Kentucky Community & Technical College</strong></a> with support
+                            from the <a href="https://women.acm.org/" target="_blank"><strong>Association for Computing Machinery</strong></a> as part of this year's 
+                            celebration of Women in Computing. This year's theme is <em>Embrace Change & Achieve Success</em>!
+                          -->
+                        </p>
+                        <!--
+                        <p class="less-blocky-text">
+                            Meeting will be held via Microsoft Teams. Follow the link to register now!
+                        </p>
+                        <p><a id="side_link" href="register.html">Get Registered</a></p>
+                        -->
+
+                        <hr>
+
+                        <!-- Contact info-->
+                        <h4>Event Contact</h4>
+                        <p><strong>Carmen Gaskins</strong></p>
+                        <p><a id="side_link" href="mailto:carmen.gaskins@kctcs.edu">Email</a></p>
+
+                        <hr>
+
+                    </div>
+                </div> <!-- End Left Column-->
+
+
+                <!-- Central column (main content)-->
+                <div id="center_column" class="col-lg-8">
+
+                    <h1 class="page-title-heading">KYCCWIC Planning Committee</h1>
+                    <!-- COMMITTEE ACCORDION Section-->
+                    <div id="committee" class="rounded p-2">
+                        
+                      <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6">
+                          <p class="testimonial-block">The wonderful women of this committee have worked dilegently to prepare this year's Women in Computing celebration.  We thank them for their dedication, passion, and hard work.</p>
+
+                        </div>
+                        <div class="col-lg-3"></div>
+                      </div>
+
+                        <div id="accordion">
+
+                            <div class="card"><!--Carmen-->
+                              <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    CO-CHAIR: Carmen Gaskins, Professor
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/carmen_gaskins.jpg" alt="Carmen Gaskins">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">Carmen Gaskins is a full-time Professor teaching computer courses at Southcentral Kentucky Community and Technical College in Bowling Green, Kentucky, since 1997.  Prior to teaching at SKYCTC, I worked in Office Management and Human Resources for Western Kentucky University, ProSTAFF Employment Agency, and YMCA.  I attended Western Kentucky University where I received an Associate in Arts, Bachelor in Science in Business Education, and Master of Arts in Business Education.  Throughout the years, I have also attended Morehead State University, Indiana University, and Western Kentucky University completing Computer Information Systems, Library Media Services, Leadership, and Communication graduate courses.  I am a member of Associate for Computing Machinery (ACM), Association for Talent Development (ASTD) and Career and Technical Education (CTE) professional organizations.  I hold Microsoft Office Specialist (MOS) Word, PowerPoint, Excel, and Access certifications.  I was born and raised in Rockport, Indiana.  I am married to Randy who works at BG Metalforming.  We have two children, Griffin (24) and Ragan (18).  Our family loves all sports, playing board games and cards, and watching movies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Kim-->
+                              <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Kim Otto, Co-Chair, Associate Professor
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/kim_otto.png" alt="Kim Otto">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">Kim Otto is an Associate Professor at Southcentral Kentucky Community and Technical College in Bowling Green, KY and has been teaching for 16 years.  She attended Western Kentucky University where she earned her Bachelor of Science in Business Education and Master of Arts in Education. She has also completed several graduate courses in Computer Information Systems, Library Media Services, and Communication.  She holds various leadership roles with her current position at SKYCTC, such as program coordinator of the Business Administration program, adviser for the student organization, Phi Beta Lambda, and chair of the Faculty Promotions Committee. She also holds Microsoft Office Specialist (MOS) Word, PowerPoint, and Excel certification.  Kim is married to Kurt (25 years) who has worked in sales management for over 20 years.  They have two children, Jackson (20) and Olivia (17), plus four dogs and one cat. </p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Amanda-->
+                              <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Amanda Browning, Graphic Designer
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/amanda_browning.jpg" alt="Amanda Browning">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">Amanda is a full-time staff member at Southcentral Kentucky Community and Technical College (SKYCTC) in Bowling Green, Kentucky and has been with the college since October 2012. She currently works as Graphic Designer with the Marketing Department and previously served as the Administrative Assistant for the Vice President of Student and Organizational Success. Prior to SKYCTC she worked in the printing industry as a graphic designer. Amanda has a Bachelor of Science in Art from Murray State University, with an emphasis in Graphic Design. She lives in Bowling Green with her husband and daughter, and is expecting a baby boy later this summer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Amy Hurt-->
+                              <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Amy Hurt, Assistant to the Provost
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/amy_hurt.jpg" alt="Amy Hurt">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">I am a full-time staff member at Southcentral Kentucky Community and Technical College (SKYCTC) in Bowling Green, Kentucky and have been with the college since October 2011. I currently serve as the Assistant to the Provost and have also served as the Administrative Assistant for the Mathematics and Sciences division, and an adjunct instructor for First Year Experience courses. Prior to SKYCTC I worked in the printing industry as a Graphic Designer for 18 years. I am a graduate of Bowling Green Technical College and SKYCTC, receiving my Graphics Arts Diploma and later my Associate in Arts degree. I furthered my education at Western Kentucky University and earned both my Bachelor and Master’s degree in Organizational Leadership. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Amy Norrod-->
+                              <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Amy Norrod, MHA, RHIT, CMAA, MIT Program Coordinator/Associate Professor
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/amy_norrod.jpg" alt="Amy Norrod">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">Amy Norrod is an Associate Professor in Medical Information Technology at SKYCTC. She holds degrees in administration, business management, and healthcare information management with 16 years of experience working within a medical facility. She also has 10 years of higher education experience both in the classroom and online format. She also serves as a program coordinator in her area of expertise and loves education! Her hobbies include exercise, mission trips, and advocating for children within the foster system as a CASA volunteer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--April-->
+                              <div class="card-header" id="headingSix">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    April Harris, Assistant Professor
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                                <div class="card-body">
+                                    <!--div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/april_harris2.jpg" alt="April Harris">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p>I am a full time Assistant Professor at Southcentral Kentucky Community and Technical College in the Business and Information Technologies Division.  I have bachelor’s degrees in psychology and in Business Education from Western Kentucky University and a master’s in business administration from W.K.U. I am a member of the Southern Kentucky Society of Human Resource Management, serve on the Kentucky Community and Technical College System Business Administration Curriculum Committee, on The United Way of Southern Kentucky Allocations Committee, and as President-Elect for the Kentucky Business Society.  I have been married to my college sweetheart for almost 26 years.  We have three sons, who are all in college, and two dogs.  My favorite ways to spend my down time is playing tennis, playing pickle ball, running, and traveling.</p>
+                                        </div>
+                                    </div -->
+                                    <p class="blocky-text">I am a full time Assistant Professor at Southcentral Kentucky Community and Technical College in the Business and Information Technologies Division.  I have bachelor’s degrees in psychology and in Business Education from Western Kentucky University and a master’s in business administration from W.K.U. I am a member of the Southern Kentucky Society of Human Resource Management, serve on the Kentucky Community and Technical College System Business Administration Curriculum Committee, on The United Way of Southern Kentucky Allocations Committee, and as President-Elect for the Kentucky Business Society.  I have been married to my college sweetheart for almost 26 years.  We have three sons, who are all in college, and two dogs.  My favorite ways to spend my down time is playing tennis, playing pickle ball, running, and traveling.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Coni-->
+                              <div class="card-header" id="headingSeven">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Coni Waggoner, Associate Professor, Faculty Lead for Reading
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/coni_waggoner.jpg" alt="Coni Waggoner">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">I am the full time Reading professor at SKYCTC. I graduated from U of L with a BA and a BS in English and Pan-African Studies. My Master's degree is in Post Secondary and Adult Education from Capella University. I have one son named Asa who is a SKYCTC graduate and he's currently a junior at WKU double majoring in Political Science and Social Studies. I enjoy time with family and friends, movies, cardio drumming, and eating.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Ellie-->
+                              <div class="card-header" id="headingEight">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Ellie Adams, Associate Professor of Communication
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="blocky-text">I have worked at Southcentral Kentucky Community and Technical College since 2009 as an admissions recruiter, first year experience instructor, and now as a full-time associate professor of communication.  Before working at SKYCTC, I spent several years working in marketing and sales.  I earned a Bachelor of Arts degree in Communication from the University of Kentucky and a Master of Arts in Communication from Western Kentucky University.  I was born and raised in Lexington, KY.  I currently live in Bowing Green, KY with my husband and two children.  </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Esther-->
+                              <div class="card-header" id="headingNine">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                    Esther French, Instruction Librarian, Associate Professor
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/esther_french.png" alt="Esther French">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">Ms. French coordinates information literacy instruction for the Learning Commons at Southcentral Kentucky Community and Technical College. She also teachers First Year Experience and Integrated Reading and Writing courses, tutors English language learners, and serves as a liaison to K-12 librarians at dual credit campuses. She co-chairs the Kentucky Virtual Library Information Literacy Workgroup and is the SKYCTC liaison to the Kentucky Community and Technical College System Information Literacy Curriculum Committee. Ms. French is a Co-Advisor for the SKY Writers creative writing club and is committed to encouraging and equipping students in their professional and creative projects.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Evelyn-->
+                              <div class="card-header" id="headingTen">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    Evelyn Thrasher, Associate Dean, Gordon Ford College of Business
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/evelyn_thrasher.jpg" alt="Evelyn Thrasher">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">Evelyn Thrasher is Associate Dean and Professor of Information Systems in the Gordon Ford College of Business at Western Kentucky University. Evelyn joined the faculty of WKU in 2008 and has taught information technology and data analytics courses at both the undergraduate and graduate level. In her time at WKU, Evelyn has served as the Director of the GFCB Professional Education and Knowledge Program, the Knicely Faculty Fellow in the Center for Leadership Excellence, and the coordinator for AACSB accreditation. Evelyn earned a PhD in Management (2006) and an MBA (2003) from Auburn University and a BS in Mathematics (1989) from East Tennessee State University. Evelyn is a 2018 graduate of Leadership Kentucky and a 2018 graduate of the Harvard University Women in Education Leadership Institute. Prior to her career in academia, Evelyn was an Advanced Systems Analyst for Eastman Chemical Company from 1989-2000.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Jessica-->
+                              <div class="card-header" id="headingEleven">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                    Jessica Adams, Associate Professor
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="blocky-text">Jessica Adams is a full-time Associate Professor teaching Communication courses at Southcentral Kentucky Community and Technical College in Bowling Green, KY since 2011.  Prior to teaching at SKYCTC, I worked at Zeager Hardwood as an Regional Manager selling playground surfacing, a manager for Wal-Mart, and lastly, and on the Event Marketing team for Newell Rubbermaid.  I attended Murray State University where I received a Bachelor of Science in Electronic Journalism and a Master of Science in Organizational Communication.  I was born and raised in Greenville KY.  I am married to Chad who is a financial advisor for Edward Jones with his office in Franklin KY.  We have two children, Sydney (16) and Wyatt (9) who keep our family active.  Sydney enjoys singing with musicals and playing volleyball, while Wyatt loves the game of basketball.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Julie-->
+                              <div class="card-header" id="headingTwelve">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                    Julie Dent, Assistant Professor
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/julie_dent.jpg" alt="Julie Dent">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">My name is Julie Dent.  I am an assistant professor, and this is my fourth year of teaching management, marketing, and computers at SKYCTC.  I have 26 years of experience in association management and higher education.  Most recently, I worked at WKU for 17 years and have 12 years of management experience.  I loved being a manager because I enjoyed working together as a team and helping staff members reach their full potential.  I graduated from the University of Kentucky with a B.A. in Communication and Master's of Business Administration, and I am a huge UK fan.  I am also an avid Atlanta Braves fan!  I have 21 year-old twins, Kristin and Ryan, who are juniors at Murray State University.  Since Kristin runs cross country and track for MSU and Ryan runs cross country, I am also a Murray State fan!  We are a family of cat lovers and have four cats, and I am a member of St. James United Methodist Church.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Margaret-->
+                              <div class="card-header" id="headingThirteen">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                    Margaret Hostetler, CIT Student
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
+                                <div class="card-body">
+                                  <div class="row">
+                                    <div class="col-md-6 col-lg-5 col-xl-4">
+                                        <img class="img-fluid img-rounded img-responsive" src="images/committee/margaret_hostetler.jpg" alt="Margaret Hostetler">
+                                    </div>
+                                    <div class="col-md-6 col-lg-7 col-xl-8">
+                                        <p class="blocky-text">Margaret Hostetler is a first-generation college senior at Southcentral Kentucky Community & Technical College. She is graduating with an AAS in Computer Information Technology before continuing to earn her bachelor’s degree in cybersecurity at WGU. A native of Missouri, she is passionate about current and emerging technology. She is an IT Technician at Southcentral KY Community College. Her hobbies include volleyball, sewing, and board or card games. She lives on 165 acres with her husband, 40,000 chickens, 1 dog, and 2 beloved Siamese cats.</p>
+                                    </div>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Millie-->
+                              <div class="card-header" id="headingFourteen">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                    Millie Wells, Director of Alumni Relations
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="blocky-text">I have been employed with SKYCTC since 2008, beginning as an Administrative Assistant, then Project Coordinator, and now serving our graduates as the Director of Alumni Relations.  I have a Master's Degree from Morehead State University in Adult and Higher Education, with a concentration in Community College.  I am a member of the KCTCS Alumni Engagement Group and KCTCS Sponsored Projects Peer Team, as well as a member of the SKYCTC Executive Staff Council and SKYCTC Celebrations Committee. </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Paula-->
+                              <div class="card-header" id="headingFifteen">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                    Paula Tangerstrom, Administrative Assistant
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/paula_tangerstrom.png" alt="Paula Tangerstrom">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">Paula Tangerstrom is a full-time IT Administrative Assistant at Southcentral Kentucky Community and Technical College in Bowling Green, Kentucky, since 2019. Prior to SKYCTC, I worked as Case Manager for Dell Computers Inc. for 14 years.  I attended SKYCTC where I received an Associate in Arts. I was born and raised in Tennessee.  I have five children, Amber (33), Cole (32), Matthew (29), Michael (28), and Marshall (24).  I am an avid gardener, canning a large portion of our family’s food consumption.  Enjoy cooking, motorcycle riding, reading, needlepoint, board games, and card games.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Rachel-->
+                              <div class="card-header" id="headingSixteen">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                                    Dr. Rachel Wolters
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="blocky-text">Dr. Wolters graduated with her PhD in Historical Studies from Southern Illinois University, Carbondale. She joined SKYCTC in 2017 and teaches History courses in World Civilizations, U.S. History, and American Women's History.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Renee-->
+                              <div class="card-header" id="headingSeventeen">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                                    Dr. Renee White
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/renee_white.jpg" alt="Renee White">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">Dr. White has been teaching at SKYCTC for 8 years.  She has previous experience in health education and health administration.  She is a Certified Professional Coder, Certified Physician Practice Manager, and a Fellow through the American Academy of Professional Coders.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Sarah-->
+                              <div class="card-header" id="headingEighteen">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+                                    Sarah Hayter, CIT Alumnus
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordion">
+                                <div class="card-body">
+                                  <div class="row">
+                                    <div class="col-md-6 col-lg-5 col-xl-4">
+                                        <img class="img-fluid img-rounded img-responsive" src="images/committee/sarah_hayter.jpg" alt="Sarah Hayter">
+                                    </div>
+                                    <div class="col-md-6 col-lg-7 col-xl-8">
+                                        <p class="blocky-text">Sarah Hayter is a former Computer and Information Technology (CIT) student of the Kentucky Community and Technical College System (KCTCS) who was born and raised in Bowling Green, Kentucky. In Fall 2019, after being out of school for 10 years, Hayter returned to her education as a non-traditional, adult student at Southcentral Kentucky Community and Technical College. In Spring 2021, she graduated from Hazard Community and Technical College with an AAS in CIT: Information Security and Network Administration Tracks. Sarah is currently in pursuit of a dual-major consisting of a BA in IS: Peace and Conflict Resolution and a BA in Korean for Professionals at the University of Hawaii at Manoa. Furthermore, she aims to complete a Bachelor's Degree in Cybersecurity, though she has not settled on a program yet. Sarah intends to use these degrees and the knowledge obtained to join the fight against childhood multidimensional poverty and social inequality. Hayter aspires to work for UNICEF or another similar organization or NGO after she obtains her education. She has a drive and a passion for helping children that is inspired by the love she holds for her own little girl, Kylie (10).</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Sherri-->
+                              <div class="card-header" id="headingNineteen">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+                                    Sherri Basil, LMS (Blackboard) Coordinator
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/sherri_basil.jpg" alt="Sherri Basil">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">I have been with SKYCTC for 15 years. I worked in the Information Technology department with SKYCTC for 13 years. I obtained my Masters Degree in Organizational Leadership and a Graduate Certificate in Educational Technology in 2018.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card"><!--Tammy-->
+                              <div class="card-header" id="headingTwenty">
+                                <h5 class="mb-0">
+                                  <button class="bio_card btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+                                    Tammy Inscoe, Chef, Assistant Professor
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-5 col-xl-4">
+                                            <img class="img-fluid img-rounded img-responsive" src="images/committee/tammy_inscoe.jpg" alt="Tammy Inscoe">
+                                        </div>
+                                        <div class="col-md-6 col-lg-7 col-xl-8">
+                                            <p class="blocky-text">Tammy Inscoe is a full-time Assistant Professor and Chef at Southcentral Kentucky Community and Technical College in Bowling Green, Kentucky. Tammy has been teaching full time in the Culinary Arts program since 2018 after being an adjunct instructor for the program. Tammy graduated from SKYCTC with an Associate in Applied Science in the Culinary Arts program in 2009 and began her career as a Chef at Western Kentucky University with Aramark Food Service. Throughout the years Tammy worked her way up from Pastry Chef to Assistant Manager to Financial Specialist. Tammy is currently working on a Bachelor degree in Hospitality from Western Kentucky University. Tammy is a member of the National Restaurant Association, American Culinary Federation, Center for the Advancement of Food Service Education, and Bourbon Country Chefs. Tammy likes traveling, deep sea fishing, and bear hunting. Tammy also works on the farm she and her husband Jeff own and loves driving the tractor in the hay fields in the Summer. Tammy also loves spending time with their two daughters and six grandchildren. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                        </div>
+                        
+                    </div> <!-- End COMMITTEE ACCORDION-->
+
+
+                </div> <!-- End Middle Column-->
+
+
+
+                <!-- Right-most column -->
+                <div class="d-none d-lg-block col-lg-2 bg-light">
+                    <div class="pt-1">
+                        <h5>Visit Us on Social Media!</h5>
+
+                        <!-- Social media links-->
+                        <a href="https://www.facebook.com/groups/1162883927542419/about?accept_recruiting_group_rules=false" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/KyccIn" target="_blank" class="fa fa-twitter"></a>
+                    </div>  
+
+                    <hr>
+
+                    <!-- Relevant links -->
+                    <a href="https://southcentral.kctcs.edu/" target="_blank"><img class="img-fluid img-rounded img-responsive clickable-img" src="images/l-skyctc.jpg" alt="SKYCTC Logo"></a>
+                    <hr>
+
+                    <a href="https://women.acm.org/" target="_blank"><img class="img-fluid img-rounded img-responsive clickable-img" src="images/l-acm_sm.png" alt="ACM-W Logo"></a>
+                    <hr>
+                </div> <!-- End Right Column-->
+
+            </div> <!-- End Row-->
+        </div> <!-- End Container-->
+
+
+        <!-- Footer-->
+        <footer class="container-fluid text-center text-light mt-3">
+            <!--a type="button" class="btn btn-light btn-sm mt-3" href="#mainPage">
+                to top
+            </a-->
+            <p class="m-0"><small>KYCC Women in Computing &copy; <script>document.write(new Date().getFullYear())</script></small></p>
+            <p class="m-0"><small>For further information, please contact Carmen Gaskins via email at <a href="mailto:carmen.gaskins@kctcs.edu">carmen.gaskins@kctcs.edu</a></small></p>
+            <p class="m-0"><small>Created with love by Southcentral Kentucky Community & Technical College alumnus Jon McDermott</small></p>
+            <p class="py-3">
+                Visit our social media pages for the latest event info:
+                <a href="https://www.facebook.com/groups/1162883927542419/about?accept_recruiting_group_rules=false" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/KyccIn" target="_blank" class="fa fa-twitter"></a>
+            </p>
+        </footer><!-- End of Footer -->
+
+
+        <!-- Bootstrap JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Internal JS -->
+        <script src="js/smoothScrolling.js"></script>
+    </body>
+</html>
