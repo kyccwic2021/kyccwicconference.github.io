@@ -66,7 +66,7 @@ nav > div > .btn:focus {
 
 /* change background image for top jumbotron */
 #top_jumbo {
-    background-image: linear-gradient(rgba(49, 52, 90, 0.425), rgba(10, 11, 43, 0.438)), url('../images/bg-net_rack.jpg');
+    background-image: linear-gradient(rgba(49, 52, 90, 0.425), rgba(10, 11, 43, 0.438)), url('../images/index_jumbotron.jpg');
     /* background-image: url('../images/bg-net_rack.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
