@@ -34,7 +34,7 @@ nav {
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: #e9e9e9;
+    color: hsl(0, 0%, 91%);
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
@@ -269,6 +269,36 @@ hr {
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     image-orientation: none;
+}
+
+.sponsorship-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sponsor-container {
+    padding: .25rem;
+    box-shadow: .25rem .25rem .5rem hsl(0, 0%, 0%, .5);
+    margin: 1rem;
+}
+
+.sponsor {
+    display: grid; 
+    place-content: center;
+    width: min(12rem, 27vw);
+    height: min(12rem, 27vw);
+}
+
+.sponsor-image {
+    max-width: min(10rem, 25vw);
+    max-height: min(10rem, 25vw);
+}
+
+.sponsor-level {
+    /* color: #e7a614;
+    background-color: #00467f;
+    padding: .125rem .25rem; */
+    text-align: center;
+    margin-top: .5rem;
 }
 
 #keynote {
@@ -547,4 +577,6 @@ footer .fa {
 }
 
 
-
+.canceled-session {
+    color: gray;
+}
